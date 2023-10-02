@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "090c6e50e3b121bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "90aab573581e2915",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cb4fd8dca6e741d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b53a26a905b4cee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f46c814ecdfd71fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c774b0f3b4fb895",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e39aa994555c1733",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Quicksort overview",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fefd7e74116fd009",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "10ef6f97bcd75007",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ecd0cff4f3b6135",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0858b58ee5df47c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d4129e60f2cd65bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc1e7f9c53653c48",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0c12ebd90dc7ac2e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "1dbbcdadca797244",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "9cb4fd8dca6e741d",
+  "lastOpenFiles": [
+    "Algorithms/Searching/Balanced Search Trees (Balanced BST).md",
+    "Algorithms/Union-Find/Union-Find Algorithm.md",
+    "Algorithms/Union-Find/Dynamic Connectivity.md",
+    "Algorithms/Sorting/Sorting.md",
+    "Algorithms/Sorting/Elementary Sorts/Shell Sort.md",
+    "Algorithms/Sorting/Quick Sort.md",
+    "Algorithms/Sorting/Priority Queues.md",
+    "Algorithms/Sorting/Merge Sort.md",
+    "Algorithms/Sorting/Elementary Sorts/Insertion Sort.md",
+    "Algorithms/Sorting/Elementary Sorts/Selection Sort.md",
+    "Algorithms/Searching/Binary Search Trees (BST).md",
+    "Algorithms/Searching/Symbol Tables.md",
+    "Algorithms/Searching/Hash Tables.md",
+    "3-1.md",
+    "helping pics/Trace of linear-probing ST implementation for standard indexing client.png",
+    "helping pics/Hashing with separate chaining for standard indexing client.png",
+    "Algorithms/Searching/Red-black BSTs.md",
+    "Algorithms/Searching/2-3 Search Trees.md",
+    "Algorithms/Stack.md",
+    "helping pics/Insert into a single 3-node (three cases).png",
+    "helping pics/Insert into a single 2-node (two cases) 1.png",
+    "helping pics/Insert into a single 2-node (two cases).png",
+    "helping pics/Left rotate (right link of h)_2.png",
+    "Left rotate (right link of h)_2.png.md",
+    "helping pics/Left rotate (right link of h)_1.png",
+    "helping pics/1-1 correspondence between red-black BSTs and 2-3 trees.png",
+    "helping pics/Encoding a 3-node with two 2-nodes.png",
+    "helping pics/Splitting the root.png",
+    "quicksort.md",
+    "Algorithms/Searching",
+    "helping pics",
+    "New folder",
+    "Untitled.canvas",
+    "Algorithms/Bags.md",
+    "divide-and-conquer.md",
+    "Algorithms/Queues.md",
+    "Algorithms/Union-Find/Weighted Quick-Union.md",
+    "Algorithms/Union-Find/Quick-Find.md",
+    "Algorithms/Union-Find/Quick-Union.md",
+    "Algorithms/Sorting/Elementary Sorts",
+    "Algorithms/Sorting",
+    "Performance characteristics of union-find algorithms.png.md",
+    "Algorithms/Union-Find/Untitled",
+    "Algorithms/Union-Find",
+    "Compiler Design",
+    "OS",
+    "Data Base"
+  ]
+}
