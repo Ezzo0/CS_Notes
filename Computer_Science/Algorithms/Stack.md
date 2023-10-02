@@ -2,7 +2,7 @@
 
 + A stack is a collection that is based on the last-in-first-out (LIFO) policy.
 ![[Operations on a pushdown stack.png|300]]
-+ 
+
 # Implementation
 + Array Based implementation: 
 ```java
