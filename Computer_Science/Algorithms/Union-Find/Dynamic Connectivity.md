@@ -21,8 +21,8 @@ ___
 ![[APIs.png]]
 # Union-Find Implementation
 ```java
-public class UF {
-
+public class UF 
+{
 	private int[] id;     // access to component id (site indexed)
 	private int count;    // number of components
 	public UF(int N)

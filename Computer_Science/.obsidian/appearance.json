@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "baseFontSize": 15
+  "baseFontSize": 15,
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "translucency": false
 }
