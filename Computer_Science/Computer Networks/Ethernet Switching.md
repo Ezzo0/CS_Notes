@@ -61,4 +61,4 @@
 - Autonegotiation is an optional function found on most Ethernet switches and NICs. It enables two devices to automatically negotiate the best speed and duplex capabilities.
 - Gigabit Ethernet ports only operate in full-duplex.
 # Sources
-- 
+- [09- CCNA 200-301-Sem-1 (Ethernet Protocol - Ethernet Switching) شرح بالعربى](https://www.youtube.com/watch?v=8DyRPjpC4_Y&list=PLyDiLBk6tDH48IAmjAfH8OhrIeTSf23id&index=10&t=1s)

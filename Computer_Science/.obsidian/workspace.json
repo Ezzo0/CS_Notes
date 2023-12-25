@@ -11,8 +11,12 @@
             "id": "9db91848a61bd9d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Networks/IPv4 Addressing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Networks/IPv4 Addressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Networks/IPv4 Addressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Networks/IPv4 Addressing.md"
+              }
             }
           },
           {
@@ -148,19 +156,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9db91848a61bd9d2",
+  "active": "6c774b0f3b4fb895",
   "lastOpenFiles": [
-    "Computer Networks/CCNA.md",
+    "pics/privateIP.png",
+    "pics/IPv4_multicast.png",
+    "Pasted image 20231225161836.png",
+    "pics/IPv4_broadcast.png",
+    "pics/IPv4_unicast.png",
+    "pics/IPv4_subnetmask.png",
     "Computer Networks/Ethernet Switching.md",
-    "helping pics/Memory Buffering.png",
-    "helping pics/Multicast_ehternetFrame.png",
-    "helping pics/Broadcast_ethernetFrame.png",
-    "helping pics/unicast_ethernetFrame.png",
-    "helping pics/OUI_vendor.png",
-    "helping pics/Ethernet_frame.png",
-    "helping pics/network,datalink,physical layers diagram.png",
-    "helping pics/network,datalink,physical layers diagram.png",
+    "Computer Networks/IPv4 Addressing.md",
+    "pics/IPv4_networkAddress.png",
+    "pics/prefixLength.png",
+    "pics/IPv4_portion.png",
+    "Computer Networks/OSI Model.md",
     "Computer Networks/Network Layer.md",
+    "Computer Networks/CCNA.md",
+    "pics/Memory Buffering.png",
+    "pics/Multicast_ehternetFrame.png",
     "Data Structures & Algorithms/Graphs/Graphs.md",
     "Data Structures & Algorithms/Sorting/Sorting.md",
     "Data Structures & Algorithms/Union-Find/Union-Find.md",
@@ -179,17 +192,13 @@
     "Data Structures & Algorithms/Sorting/Elementary Sorts/Shell Sort.md",
     "Data Structures & Algorithms/Sorting/Elementary Sorts/Selection Sort.md",
     "Data Structures & Algorithms/Sorting/Elementary Sorts/Insertion Sort.md",
-    "Computer Networks/OSI Model.md",
     "Data Structures & Algorithms/Graphs/Undirected Graphs.md",
     "Data Structures & Algorithms/Graphs/Minimum Spanning Trees.md",
-    "Data Structures & Algorithms/Graphs/Directed Graphs.md",
-    "helping pics/Trace of Kruskal’s algorithm_2.png",
-    "helping pics/Trace of Kruskal’s algorithm_1.png",
     "AI",
     "Computer Networks",
     "Data Structures & Algorithms/Graphs",
     "Data Structures & Algorithms/Searching",
-    "helping pics",
+    "pics",
     "New folder",
     "Untitled.canvas",
     "Data Structures & Algorithms/Sorting/Elementary Sorts",

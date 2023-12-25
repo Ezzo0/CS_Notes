@@ -43,7 +43,7 @@ public class WeightedQuickUnionUF
 
 ![[Weighted quick-union traces (forests of trees).png]]
 
-![[Performance characteristics of union-find algorithms.png]]
+![[Performance characteristics of union-find algorithms.PNG]]
 # Sources
 + [Princeton University: Algorithms part | - Lecture 1 ](https://www.coursera.org/learn/algorithms-part1/lecture/RZW72/quick-union-improvements)
 + Algorithms 1.5
