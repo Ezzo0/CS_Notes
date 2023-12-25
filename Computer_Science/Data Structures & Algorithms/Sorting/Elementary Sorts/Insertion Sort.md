@@ -28,7 +28,6 @@ public class Insertion
 + The best case is $N - 1$ compares and 0 exchanges.
 + The number of exchanges used by insertion sort is equal to the number of inversions in the array.
 + The number of compares is at least equal to the number of inversions and at most equal to the number of inversions plus the array size minus 1.
-+ 
 # Sources
 + [Princeton University: Algorithms part | - Lecture 4 ](https://www.coursera.org/learn/algorithms-part1/lecture/1hYlN/insertion-sort)
 + Algorithms 2.1

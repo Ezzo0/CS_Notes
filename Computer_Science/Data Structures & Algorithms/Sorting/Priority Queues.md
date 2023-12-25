@@ -23,7 +23,8 @@ public class MaxPQ<Key extends Comparable<Key>>
 	
 	public void insert(Key v) 
 	{ 
-		pq[++N] = v; swim(N); 
+		pq[++N] = v; 
+		swim(N); 
 	} 
 	
 	public Key delMax() 

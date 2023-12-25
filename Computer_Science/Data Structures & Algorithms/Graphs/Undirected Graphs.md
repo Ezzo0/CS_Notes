@@ -67,7 +67,7 @@ public class Graph
 	{ return adj[v]; } 
 }
 ```
-+ DFS:
++ DFS (using [[Stack]] for iteration):
 ```java
 public class DepthFirstSearch 
 { 

@@ -5,5 +5,3 @@
 + [[Merge Sort]]
 + [[Quick Sort]]
 + [[Priority Queues]]
-# Sources
-+ Algorithms Chapter 2 (Sorting)
