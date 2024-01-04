@@ -18,7 +18,7 @@
 				- Every segment of data will have MAC of source and MAC of destination.
 				- MAC address is 48bit.
 		- Datalink layer is responsible for hop-to-hop delivery.
-	3. **Network Layer**
+	3. **[[Network Layer]]**
 		- Network layer do
 			1. Logical addressing
 				- Every segment of data will have CLNS (IP) of source and CLNS (IP) of destination.
@@ -60,12 +60,12 @@
 			3. Defines data format
 				- If data is presented like this: 01010101, then source will provide some numbers before data to state its format like the following: 110101010111.
 	7. **Application Layer**
-		-  It is the first layer that interact with the user.
+		- It is the first layer that interact with the user.
 		- It is responsible for communication between user and network.
-![[osi_model_7_layers.png]]
+		![[osi_model_7_layers.png]]
 - #### TCP/IP model
 	- TCP/IP  model has 4 layers until 2010, now it has 5 layers.
-	 ![[TCP-IP-vs-OSI-Model.png]]
+		![[TCP-IP_OSI.png|500]]
 - #### Encapsulation
 	- Data is encapsulated by different headers in different layers.
 	 ![[data encapsulation.png]]

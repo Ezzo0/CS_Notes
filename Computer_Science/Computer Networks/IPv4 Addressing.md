@@ -5,7 +5,7 @@
 - To identify the network and host portions of an IPv4 address, the subnet mask is compared to the IPv4 address bit for bit, from left to right.
 - To identify the network address, the host IPv4 address is logically ANDed, bit by bit, with the subnet mask to identify the network address.
 	  ![[IPv4_networkAddress.png|500]]
-	  ![[IPv4_subnetmask.png|900]]
+	  ![[IPv4_subnetmask.png|1000]]
 - A prefix length is another method used to identify a subnet mask address.
 - The prefix length is the number of bits set to 1 in the subnet mask.
  ![[prefixLength.png|500]]
@@ -46,6 +46,8 @@
 - Classful address allocation was replaced with classless addressing which ignores the rules of classes (A, B, C).
 - The Internet Assigned Numbers Authority (IANA) manages and allocates blocks of IPv4 and IPv6 addresses to five Regional Internet Registries (RIRs).
 - RIRs are responsible for allocating IP addresses to ISPs who provide IPv4 address blocks to smaller ISPs and organizations.
+- 
 # Sources
 - [14- CCNA 200-301-Sem-1 (IPv4 Addressing - Subnetting - FLSM - VLSM - Part-1) شرح بالعربى](https://www.youtube.com/watch?v=umYMAWjNdwE&list=PLyDiLBk6tDH48IAmjAfH8OhrIeTSf23id&index=15)
 - [15- CCNA 200-301-Sem-1 (IPv4 Addressing - Subnetting - FLSM - VLSM - Part-2) شرح بالعربى](https://www.youtube.com/watch?v=Mnw9rg_oUx8&list=PLyDiLBk6tDH48IAmjAfH8OhrIeTSf23id&index=16)
+- [Module 11: IPV4 Addressing](https://www.youtube.com/watch?v=NS0ho8Hh6aA&t=1250s)

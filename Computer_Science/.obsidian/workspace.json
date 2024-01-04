@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "38b806af364b4f9b",
+        "id": "daf4e34f6a1c525b",
         "type": "tabs",
         "children": [
           {
-            "id": "9db91848a61bd9d2",
+            "id": "87b36e65d92fd6d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/IPv4 Addressing.md",
+                "file": "Intro to Linux.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 233.5
   },
   "right": {
     "id": "10ef6f97bcd75007",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Networks/IPv4 Addressing.md",
+                "file": "Intro to Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Networks/IPv4 Addressing.md",
+                "file": "Intro to Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Networks/IPv4 Addressing.md"
+                "file": "Intro to Linux.md"
               }
             }
           },
@@ -135,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -156,24 +158,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c774b0f3b4fb895",
+  "active": "87b36e65d92fd6d5",
   "lastOpenFiles": [
-    "pics/privateIP.png",
-    "pics/IPv4_multicast.png",
-    "Pasted image 20231225161836.png",
-    "pics/IPv4_broadcast.png",
-    "pics/IPv4_unicast.png",
-    "pics/IPv4_subnetmask.png",
-    "Computer Networks/Ethernet Switching.md",
+    "pics/commandSub.png",
+    "pics/Quoting.png",
+    "metacharacters 1.png",
+    "pics/metacharacters.png",
+    "pics/simpleShellScript.png",
+    "Syntax/Syntax.md",
+    "Syntax/Syntax of writing in obsidian.md",
+    "pics/TCP-IP_OSI.png",
+    "Intro to Linux.md",
+    "pics/df-h.png",
+    "pics/df.png",
     "Computer Networks/IPv4 Addressing.md",
-    "pics/IPv4_networkAddress.png",
-    "pics/prefixLength.png",
-    "pics/IPv4_portion.png",
+    "Computer Networks/Ethernet Switching.md",
+    "Computer Networks/Datalink Layer.md",
+    "Computer Networks/Physical Layer.md",
     "Computer Networks/OSI Model.md",
+    "Computer Networks/Network Topology.md",
     "Computer Networks/Network Layer.md",
     "Computer Networks/CCNA.md",
-    "pics/Memory Buffering.png",
-    "pics/Multicast_ehternetFrame.png",
+    "pics/terminal and shell.png",
+    "pics/LinuxLayers.png",
+    "Syntax/Intro to Linux.md",
+    "Syntax/Git.md",
+    "pics/privateIP.png",
     "Data Structures & Algorithms/Graphs/Graphs.md",
     "Data Structures & Algorithms/Sorting/Sorting.md",
     "Data Structures & Algorithms/Union-Find/Union-Find.md",
@@ -186,14 +196,6 @@
     "Data Structures & Algorithms/Searching/Binary Search Trees (BST).md",
     "Data Structures & Algorithms/Searching/Balanced Search Trees (Balanced BST).md",
     "Data Structures & Algorithms/Searching/Red-black BSTs.md",
-    "Data Structures & Algorithms/Sorting/Quick Sort.md",
-    "Data Structures & Algorithms/Sorting/Priority Queues.md",
-    "Data Structures & Algorithms/Sorting/Merge Sort.md",
-    "Data Structures & Algorithms/Sorting/Elementary Sorts/Shell Sort.md",
-    "Data Structures & Algorithms/Sorting/Elementary Sorts/Selection Sort.md",
-    "Data Structures & Algorithms/Sorting/Elementary Sorts/Insertion Sort.md",
-    "Data Structures & Algorithms/Graphs/Undirected Graphs.md",
-    "Data Structures & Algorithms/Graphs/Minimum Spanning Trees.md",
     "AI",
     "Computer Networks",
     "Data Structures & Algorithms/Graphs",

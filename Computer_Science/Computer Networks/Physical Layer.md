@@ -15,7 +15,7 @@
 + Latency is the amount of time, including delays, for data to travel from one given point to another.
 + Throughput is the measure of the transfer of bits across the media over a given period of time.
 + Goodput is the measure of usable data transferred over a given period of time. 
-+ Goodput = Throughput - traffic overhead.
+	+ Goodput = Throughput - traffic overhead.
 + #### Copper Cabling
 	+ It is inexpensive, easy to install, and has low resistance to electrical current flow. 
 	+ **Limitations:**

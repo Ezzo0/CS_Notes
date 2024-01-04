@@ -8,22 +8,29 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Computer Networks\"  ",
+      "query": "path:\"Data Structures & Algorithms\"  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"Data Structures & Algorithms\"  ",
+      "query": "path:\"Computer Networks\"  ",
       "color": {
         "a": 1,
-        "rgb": 864709
+        "rgb": 4137081
+      }
+    },
+    {
+      "query": "path:Syntax  ",
+      "color": {
+        "a": 1,
+        "rgb": 14277081
       }
     }
   ],
   "collapse-display": true,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7166405830608714,
+  "scale": 0.7138807536035051,
   "close": false
 }

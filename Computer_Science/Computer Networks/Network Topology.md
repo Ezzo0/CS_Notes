@@ -8,7 +8,7 @@
 	- End devices (PC, IP Phone, Smart Phone, Printer, etc...)
 	- Network Device or Intermediate Devices (Switch, Hub, Router, Bridge, Repeater, wireless access points, AP, Firewall)
 		- An intermediary device interconnects end devices.
-		- Management of data as it flows through a network is also the role of an intermediary device, including:
+		- Management of data as it flows through a network including:
 			- Regenerate and retransmit data signals.
 			- Maintain information about what pathways exist in the network.
 			- Notify other devices of errors and communication failures.
@@ -17,8 +17,8 @@
 - ##### Network Topologies
 	- The topology of a network is the arrangement, relationship of the network devices, and the interconnections between them.
 	- There are two types of topologies used when describing networks:
-		1. Physical topology – shows physical connections and how devices are interconnected.
-		2. Logical topology – identifies the virtual connections between devices using device interfaces and IP addressing schemes.
+		1. Physical topology – illustrate the physical location of intermediary devices and cable installation.
+		2. Logical topology – identifies the virtual connections between devices using device interfaces and IP addressing schemes (illustrate devices, ports, and the addressing scheme of the network).
 	+ ###### LAN Topologies:
 		- **Bus Topology**
 			- Co-axial cables were used to connect components in bus topology.
@@ -44,10 +44,10 @@
 				 ![[hub_star_topology.png]]
 			- **_SW_**:
 				- Each device send Data divided into pieces.
-				- when data is sent to switch, switch use the first piece of data only to build MAC-address-table by send this piece to all devices.
+				- when data is sent to switch, switch use the first piece of data only to build MAC address-table by send this piece to all devices.
 				- MAC-address-table is built by the source devices only.
-				- After this step, switch send data to the destination device only if it is in MAC-address-table.
-				- Information of the device in MAC-address-table will be available only if the device send data again in time less than aging-time which is equal to 300 sec by default. 
+				- After this step, switch send data to the destination device only if it is in MAC address-table.
+				- Information of the device in MAC address-table will be available only if the device send data again in time less than aging-time which is equal to 300 sec by default. 
 				- By default, there is no collision on switch.
 				- SW star physical topology is **_STAR_**.
 				- SW star logical topology is **_BUS_**.

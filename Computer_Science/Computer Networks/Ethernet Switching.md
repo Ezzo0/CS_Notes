@@ -7,15 +7,14 @@
 			1. Ethernet frame - This is the internal structure of the Ethernet frame.
 			2. Ethernet Addressing - The Ethernet frame includes both a source and destination MAC address to deliver the Ethernet frame from Ethernet NIC to Ethernet NIC on the same LAN.
 			3. Ethernet Error detection - The Ethernet frame includes a frame check sequence (FCS) trailer used for error detection.
-	 ![[network,datalink,physical layers diagram.png|500]]
-- The minimum Ethernet frame size is 64 bytes and the maximum is 1518 bytes. 
-- The preamble field is not included when describing the size of the frame.
+			 ![[network,datalink,physical layers diagram.png|500]]
+- The minimum Ethernet frame size is 64 bytes and the maximum is 1518 bytes (The preamble field is not included when describing the size of the frame).
 - Any frame less than 64 bytes in length is considered a “collision fragment” or “runt frame” and is automatically discarded. 
 - Frames with more than 1500 bytes of data are considered “jumbo” or “baby giant frames”.
 - If the size of a transmitted frame is less than the minimum, or greater than the maximum, the receiving device drops the frame. 
 - Dropped frames are likely to be the result of collisions or other unwanted signals. They are considered invalid. 
 - Jumbo frames are usually supported by most Fast Ethernet and Gigabit Ethernet switches and NICs.
- ![[Ethernet_frame.png|500]]
+	 ![[Ethernet_frame.png|500]]
 - MSS is expressing the size of segment.
 - MTU is expressing the size of packet.
 - MRU is expressing the size of the frame.
@@ -54,7 +53,7 @@
 - A big advantage of store-and-forward switching is that it determines if a frame has errors before propagating the frame. When an error is detected in a frame, the switch discards the frame.
 - Discarding frames with errors reduces the amount of bandwidth consumed by corrupt data.
 - An Ethernet switch may use a buffering technique to store frames before forwarding them or when the destination port is busy because of congestion.
-- ![[Memory Buffering.png]]
+![[Memory Buffering.png]]
 - There are two types of duplex settings used for communications on an Ethernet network:
 	- Full-duplex - Both ends of the connection can send and receive simultaneously.
 	- Half-duplex - Only one end of the connection can send at a time.
