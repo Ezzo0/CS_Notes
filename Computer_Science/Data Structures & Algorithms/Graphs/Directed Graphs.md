@@ -3,7 +3,7 @@
 + A directed edge points from the first vertex in the pair and points to the second vertex in the pair.
 + The outdegree of a vertex in a digraph is the number of edges going from it; the indegree of a vertex is the number of edges going to it.
 + The first vertex in a directed edge is called its head ; the second vertex is called its tail.
- ![[Anatomy of a digraph.png|350]]
+	 ![[Anatomy of a digraph.png|350]]
 + We use the adjacency-lists representation, where an edge v->w is represented as a list node containing w in the linked list corresponding to v.
 + In the adjacency-lists representation of an  [[Undirected Graphs]], we know that if v is on w’s list, then w will be on v’s list; the adjacency-lists representation of a digraph has no such symmetry.
 + #### Cycles and DAGs

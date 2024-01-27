@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "daf4e34f6a1c525b",
+        "id": "9c43c7e88cd3bcfe",
         "type": "tabs",
         "children": [
           {
-            "id": "87b36e65d92fd6d5",
+            "id": "8fff4d1abb3ebe60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Linux.md",
+                "file": "OS/Introduction to OS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro to Linux.md",
+                "file": "OS/Introduction to OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to Linux.md",
+                "file": "OS/Introduction to OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intro to Linux.md"
+                "file": "OS/Introduction to OS.md"
               }
             }
           },
@@ -158,54 +158,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87b36e65d92fd6d5",
+  "active": "6c774b0f3b4fb895",
   "lastOpenFiles": [
-    "pics/commandSub.png",
-    "pics/Quoting.png",
-    "metacharacters 1.png",
-    "pics/metacharacters.png",
-    "pics/simpleShellScript.png",
-    "Syntax/Syntax.md",
+    "pics/Various exception sources.png",
+    "pics/symboltableRowelements.png",
+    "pics/symboltableandcode.png",
+    "pics/symbol_table.png",
+    "pics/Switching between privileged thread mode and unprivileged thread mode.png",
+    "pics/Switching between ARM code and Thumb code in classic ARM processors.png",
+    "pics/Special Registers.png",
+    "pics/ROM_&_RAM_sections.png",
+    "pics/reset_sequence.png",
+    "pics/Reset sequence.png",
+    "pics/Registers in the register bank.png",
+    "C & Embedded C/Makefile.md",
+    "C & Embedded C/CMake.md",
+    "C & Embedded C/Build Process.md",
+    "C & Embedded C",
+    "ARM/Instruction Set⁯/Instruction set (Assembly).md",
+    "ARM/Instruction Set⁯/Background to the instruction set in ARM Cortex-M processors.md",
+    "ARM/Architecture/Programmer’s model.md",
+    "ARM/Architecture/Exceptions and interrupts.md",
+    "ARM/Architecture/Memory system.md",
+    "ARM/Architecture/Application Program Status Register (APSR).md",
+    "ARM/Reset Mechanism & Reset Sequence.md",
+    "ARM/Instruction Set⁯",
+    "ARM/Cortex-M3 & Cortex-M4 Processors.md",
+    "ARM/Boot-Loader.md",
+    "ARM/Architecture",
+    "ARM",
+    "Computer Networks/OSI Model.md",
+    "OS/Introduction to OS.md",
+    "Data Structures & Algorithms/Graphs/Graphs.md",
     "Syntax/Syntax of writing in obsidian.md",
-    "pics/TCP-IP_OSI.png",
+    "Syntax/Syntax.md",
+    "Syntax/Git.md",
     "Intro to Linux.md",
-    "pics/df-h.png",
-    "pics/df.png",
+    "Data Structures & Algorithms/Graphs/Undirected Graphs.md",
+    "Data Structures & Algorithms/Graphs/Directed Graphs.md",
     "Computer Networks/IPv4 Addressing.md",
     "Computer Networks/Ethernet Switching.md",
     "Computer Networks/Datalink Layer.md",
     "Computer Networks/Physical Layer.md",
-    "Computer Networks/OSI Model.md",
-    "Computer Networks/Network Topology.md",
-    "Computer Networks/Network Layer.md",
-    "Computer Networks/CCNA.md",
-    "pics/terminal and shell.png",
-    "pics/LinuxLayers.png",
-    "Syntax/Intro to Linux.md",
-    "Syntax/Git.md",
-    "pics/privateIP.png",
-    "Data Structures & Algorithms/Graphs/Graphs.md",
-    "Data Structures & Algorithms/Sorting/Sorting.md",
-    "Data Structures & Algorithms/Union-Find/Union-Find.md",
-    "Data Structures & Algorithms/Union-Find/Quick-Union.md",
-    "Data Structures & Algorithms/Union-Find/Quick-Find.md",
-    "Data Structures & Algorithms/Searching/Searching.md",
-    "Data Structures & Algorithms/Searching/Symbol Tables.md",
-    "Data Structures & Algorithms/Searching/Hash Tables.md",
-    "Data Structures & Algorithms/Searching/2-3 Search Trees.md",
-    "Data Structures & Algorithms/Searching/Binary Search Trees (BST).md",
-    "Data Structures & Algorithms/Searching/Balanced Search Trees (Balanced BST).md",
-    "Data Structures & Algorithms/Searching/Red-black BSTs.md",
     "AI",
     "Computer Networks",
     "Data Structures & Algorithms/Graphs",
     "Data Structures & Algorithms/Searching",
     "pics",
     "New folder",
-    "Untitled.canvas",
-    "Data Structures & Algorithms/Sorting/Elementary Sorts",
-    "Data Structures & Algorithms/Sorting",
-    "Algorithms/Union-Find/Untitled",
-    "Data Structures & Algorithms/Union-Find"
+    "Untitled.canvas"
   ]
 }
