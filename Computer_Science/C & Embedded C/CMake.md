@@ -49,6 +49,10 @@
 			message("${var}")
 			math(EXPR var "${var} - 1")
 		endwhile()
+		# break command
+		break()
+		#continue command
+		continue()
 		```
 	- **_Functions:_**
 		```CMake
@@ -73,6 +77,22 @@
 	```
 	- used to copy specified files to new destination.
 		- Execute of the `install` command is by using `cmake --install .`
+	- **_Read from files:_**
+		- `file(READ "file_name" var)` - read txt in a file and store it in variable `var` in the same format as the file.
+		- `file(STRINGS "file_name" var REGEX "val")` - read string in a file and store it in variable `var` and search for `"val"` using regular expressions.
+		- `file(GLOB_RECURSE var "*.cpp (any input)")` - read string in a file or files and store it in variable `var`.
+		```CMake
+		file(READ "main.cpp" mainTxt)
+		string(REGEX REPLACE "int" "void" OUT ${mainTxt})
+		```
+		- read the content of the file and replace every int word with void, then store the result in `OUT` variable.
+	- **_Macro:_**
+	```CMake
+		macro(function_name parameters)
+			commands
+		endmacro()
+	``` 
+	-  `execute_process(COMMAND "command")` - used to run a command, which is used in bash, in CMake.
 	- 
 # Sources
 - [CMake - MoatasemElsayed](https://www.youtube.com/playlist?list=PLkH1REggdbJpG8fHZvivt-5Hlg3UZcJrK)
