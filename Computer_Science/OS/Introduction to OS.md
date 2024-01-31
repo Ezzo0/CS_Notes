@@ -2,7 +2,7 @@
 - OS is a body of software that is responsible for making it easy to run programs, allowing programs to share memory, enabling programs to interact with devices, etc..
 - OS is in charge of making sure the system operates correctly and efficiently in an easy-to-use manner.
 - OS is known as a resource manager.
-- The primary way the OS does the above points is through a general technique called **virtualization**. 
+- The primary way that the OS does the above points is through a general technique called **[[Virtualization]]**.
 - Virtualization is, the OS takes a physical resource (such as the processor, or memory, or a disk) and transforms it into a more general, powerful, and easy-to-use virtual form of itself. Thus, OS sometimes is referred as a virtual machine.
 - A typical OS exports a few hundred **system calls** that are available to applications. 
 - Because the OS provides these calls to **_run programs, access memory and devices, and other related actions_**, we also sometimes say that the OS provides a standard library to applications.
@@ -12,4 +12,3 @@
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 2
 - [Lecture 1 - part 1](https://youtu.be/3uMbb9dLtlE)
-- [Lecture 1 - part 3](https://youtu.be/LVxN7ZkGh3w)

@@ -69,7 +69,7 @@
 	```CMake
 	install(FILES "${PROJECT_BINARY_DIR}/hellobin.exe"
 	    DESTINATION "${PROJECT_BINARY_DIR}/executable"
-     )
+	)
 	```
 	- used to copy specified files to new destination.
 		- Execute of the `install` command is by using `cmake --install .`
