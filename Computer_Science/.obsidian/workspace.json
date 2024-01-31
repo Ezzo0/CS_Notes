@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Introduction to OS.md",
+                "file": "C & Embedded C/CMake.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Introduction to OS.md",
+                "file": "C & Embedded C/CMake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Introduction to OS.md",
+                "file": "C & Embedded C/CMake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Introduction to OS.md"
+                "file": "C & Embedded C/CMake.md"
               }
             }
           },
@@ -158,8 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c774b0f3b4fb895",
+  "active": "8fff4d1abb3ebe60",
   "lastOpenFiles": [
+    "C & Embedded C/CMake.md",
+    "OS/Introduction to OS.md",
     "pics/Various exception sources.png",
     "pics/symboltableRowelements.png",
     "pics/symboltableandcode.png",
@@ -170,9 +172,7 @@
     "pics/ROM_&_RAM_sections.png",
     "pics/reset_sequence.png",
     "pics/Reset sequence.png",
-    "pics/Registers in the register bank.png",
     "C & Embedded C/Makefile.md",
-    "C & Embedded C/CMake.md",
     "C & Embedded C/Build Process.md",
     "C & Embedded C",
     "ARM/Instruction Set⁯/Instruction set (Assembly).md",
@@ -188,7 +188,6 @@
     "ARM/Architecture",
     "ARM",
     "Computer Networks/OSI Model.md",
-    "OS/Introduction to OS.md",
     "Data Structures & Algorithms/Graphs/Graphs.md",
     "Syntax/Syntax of writing in obsidian.md",
     "Syntax/Syntax.md",
