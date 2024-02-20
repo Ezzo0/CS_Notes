@@ -7,7 +7,7 @@
 - To implement virtualization of the CPU, and to implement it well, the OS will need both some low-level machinery (**mechanisms**) and some high-level intelligence (**policies**).
 - Mechanisms are low-level methods or protocols that implement a needed piece of functionality.
 - Policies are algorithms for making some kind of decision within the OS. For example, given a number of possible programs to run on a CPU, which program should the OS run?
-### Process API
+##### Process API
 - These APIs, in some form, are available on any modern operating system:
 	1. **Create**: An operating system must include some method to create new processes.
 	2. **Destroy**: An operating system must include some method to halt a runaway process.
@@ -45,4 +45,5 @@
 - Sometimes people refer to the individual structure that stores information about a process as a **Process Control Block (PCB)** (also sometimes called a **process descriptor**).
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 4.
-- [Lecture 1 - part 3](https://youtu.be/LVxN7ZkGh3w)
+- [Lecture 2 - part 1](https://youtu.be/oTd72Yp2m8w)
+- [Lecture 2 - part 2](https://youtu.be/Q09UgVfragU)
