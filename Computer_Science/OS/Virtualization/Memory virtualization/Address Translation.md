@@ -2,7 +2,7 @@
 - The generic technique we will use is something that is referred to as **hardware-based address translation**.
 - With address translation, the hardware transforms each memory access, changing the **virtual** address provided by the instruction to a **physical** address where the desired information is actually located.
 - The hardware alone cannot virtualize memory, as it just provides the low-level mechanism for doing so efficiently. The OS must get involved at key points to set up the hardware so that the correct translations take place: 
-	- it must **manage memory** by keeping track of which locations are free and which are in use.
+	- It must **manage memory** by keeping track of which locations are free and which are in use.
 	- Judiciously intervening to maintain control over how memory is used.
 ##### Assumptions
 - We will assume for now that:
@@ -11,7 +11,7 @@
 	3. Each address space is exactly the same size.
 ##### An Example
 - From the program’s perspective, its **address space** starts at address 0 and grows to a maximum of 16 KB; all memory references it generates should be within these bounds.
-- However, to virtualize memory, the OS wants to place the process somewhere else in physical memory, not necessarily at address 0.
+- However, to virtualize memory, the OS wants to place the [[Process]] somewhere else in physical memory, not necessarily at address 0.
     ![[A Process And Its Address Space.png|300]] ![[Physical Memory with a Single Relocated Process.png|320]]
 ##### Dynamic Relocation (base and bounds)
 - Two hardware registers are needed within each CPU: 
@@ -35,7 +35,6 @@
 - When the OS decides to stop running a process, it must save the values of the base and bounds registers to memory, in some per-process structure such as the **process structure** or **process control block (PCB)**.
 - when a process is stopped (i.e., not running), it is possible for the OS to move an address space from one location in memory to another rather easily. 
 - To move a process’s address space, the OS first deschedules the process; then, the OS copies the address space from the current location to the new location; finally, the OS updates the saved base register (in the process structure) to point to the new location.
-- 
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 15.
 - [Lecture 3 - part 2](https://youtu.be/I0RIlSN0DzM)
