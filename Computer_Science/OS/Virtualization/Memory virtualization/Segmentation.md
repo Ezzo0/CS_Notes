@@ -1,7 +1,7 @@
 # Explanation
 - With the [[Address Translation#Dynamic Relocation (base and bounds)|base and bounds registers]], the OS can easily relocate processes to different parts of physical memory. 
 - However, you might have noticed something about these address spaces of ours: there is a big chunk of “free” space right in the middle, between the stack and the heap.
-- This type of waste is usually called internal fragmentation, as the space inside the allocated unit is not all used (i.e., is fragmented) and thus wasted.
+- This type of waste is usually called **internal fragmentation**, as the space inside the allocated unit is not all used (i.e., is fragmented) and thus wasted.
 ##### Segmentation: Generalized Base/Bounds
 - The idea is simple: instead of having just one base and bounds pair in our MMU, why not have a base and bounds pair per logical segment of the address space?
 - This idea is called **segmentation**.
@@ -38,8 +38,8 @@
 - Previously, we assumed that each address space was the same size, and thus physical memory could be thought of as a bunch of slots where processes would fit in. 
 - Now, we have a number of segments per process, and each segment might be a different size.
 - The general problem that arises is that physical memory quickly becomes full of little holes of free space, making it difficult to allocate new segments, or to grow existing ones. We call this problem **external fragmentation**.
-- One solution to this problem would be to **compact** physical memory by rearranging the existing segments.![[Non-compacted and Compacted Memory.png]]
-- However, compaction is expensive, as copying segments is memory-intensive and generally uses a fair amount of processor time.
+- One solution to this problem would be to **compact** physical memory by rearranging the existing segments.![[Non-compacted and Compacted Memory.png]] ^130c27
+- However, **compaction** is expensive, as copying segments is memory-intensive and generally uses a fair amount of processor time.
 - Compaction also (ironically) makes requests to grow existing segments hard to serve, and may thus cause further rearrangement to accommodate such requests.
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 16.
