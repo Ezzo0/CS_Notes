@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Computer_Science/OOP-Java/OOP.md",
+=======
+                "file": "Computer_Science/Computer Networks/Network Topology.md",
+>>>>>>> 454c38ee471221626ca8cc55d8c9430178f4cd34
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +89,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Computer_Science/OOP-Java/OOP.md",
+=======
+                "file": "Computer_Science/Computer Networks/Network Topology.md",
+>>>>>>> 454c38ee471221626ca8cc55d8c9430178f4cd34
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Computer_Science/OOP-Java/OOP.md",
+=======
+                "file": "Computer_Science/Computer Networks/Network Topology.md",
+>>>>>>> 454c38ee471221626ca8cc55d8c9430178f4cd34
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,6 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Computer_Science/OOP-Java/OOP.md"
               }
             }
@@ -136,6 +149,11 @@
               "type": "calendar",
               "state": {}
             }
+=======
+                "file": "Computer_Science/Computer Networks/Network Topology.md"
+              }
+            }
+>>>>>>> 454c38ee471221626ca8cc55d8c9430178f4cd34
           }
         ]
       }
@@ -154,6 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "699d02152257b9ce",
   "lastOpenFiles": [
     "Computer_Science/OOP-Java/Basic_Concepts.md",
@@ -166,6 +185,12 @@
     "Computer_Science/Computer Networks/Ethernet Switching.md",
     "Computer_Science/OOP-Java/README.md",
     "Computer_Science/Computer Networks/Network Topology.md",
+=======
+  "active": "b4221203322c013b",
+  "lastOpenFiles": [
+    "Computer_Science/OOP-Java/README.md",
+    "Computer_Science/Computer Networks/CCNA.md",
+>>>>>>> 454c38ee471221626ca8cc55d8c9430178f4cd34
     "Computer_Science/OOP-Java"
   ]
 }
