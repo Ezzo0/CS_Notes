@@ -148,7 +148,7 @@ public class Car {
 		}
 	
 	```
-	-  **Method Overloading**:
+	-  **<span style="color:#7030a0">Method</span> <span style="color:#7030a0">Overloading</span>**:
 		- **Method Overloading**: Method overloading allows you to define multiple methods with the same name but different parameters. The compiler determines which method to call based on the number and types of arguments passed to it. Overloading enables you to provide multiple ways to perform a task with the same method name.
 		- Example: Overloading the `displayInfo` method in the `Car` class to handle different types of display.
 ```java
@@ -172,8 +172,8 @@ public class Car {
 }
 
 ```
-- 7.calling Constructor:
-	- The benefit of it that you added a new data Member and you want to use Constructors.
+- <span style="color:#00b050">7.Constructor Channing:</span>
+	- Constructor chaining in OOP enables one constructor to call another within the same class, reusing initialization logic across different constructors, helping to avoid redundancy and duplication in code.
 ``` java
 		public class Car {
 		    // Attributes
