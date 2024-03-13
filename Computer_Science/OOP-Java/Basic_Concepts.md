@@ -72,8 +72,6 @@ public class Car {
 
 ```
 4. Getter Methods
-   - Definition: Methods to retrieve the value of private data members
-   - Example: Writing getter methods for the Car class
 ```
 public class Car {
     // Private attributes
@@ -111,3 +109,54 @@ public class Car {
 }
 
 ```
+1. **Constructors**:
+    
+    - **Non-argument Constructor**:
+        - Definition: A constructor that doesn't take any arguments.
+        - Example: Creating a non-argument constructor for the `Car` class.
+        - Note: It must be the same name of the class `Car` with no datatype
+            
+   ```
+	public class Car {
+	    // Non-argument constructor
+	    public Car() {
+	        // Constructor body
+	    }
+	}       
+
+    ```    
+	- **Parameterized Constructor**:
+		- Definition: A constructor that takes parameters to initialize object state.
+		- Example: Creating a parameterized constructor for the `Car` class to initialize attributes.
+```
+	public class Car {
+	    // Attributes
+	    private String brand;
+	    private String model;
+	    private int year;
+	    
+	    // Parameterized constructor
+	    public Car(String brand, String model, int year) {
+	        this.brand = brand;
+	        this.model = model;
+	        this.year = year;
+	    }
+	}
+
+```
+1. **Method Overloading**:
+    
+    - Definition: Method overloading allows a class to have multiple methods with the same name but different parameters.
+    - Example: Overloading the `displayInfo` method in the `Car` class to handle different types of display.
+        
+        javaCopy code
+        
+        `public class Car {     // Attributes...          // Method overloading     public void displayInfo() {         System.out.println("Brand: " + brand);         System.out.println("Model: " + model);         System.out.println("Year: " + year);     }          public void displayInfo(boolean includeYear) {         System.out.println("Brand: " + brand);         System.out.println("Model: " + model);         if (includeYear) {             System.out.println("Year: " + year);         }     } }`
+        
+
+**Explanation**:
+
+- **Constructors**: Constructors are special methods used to initialize objects. A non-argument constructor doesn't take any parameters and is used to create objects with default initializations. A parameterized constructor takes parameters to initialize object state with specific values.
+- **Method Overloading**: Method overloading allows you to define multiple methods with the same name but different parameters. The compiler determines which method to call based on the number and types of arguments passed to it. Overloading enables you to provide multiple ways to perform a task with the same method name.
+
+You can incorporate these examples and explanations into your notes to cover constructors and method overloading comprehensively.
