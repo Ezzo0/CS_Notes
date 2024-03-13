@@ -109,6 +109,76 @@ public class Car {
 
 ```
 ***
+- <span style="color:#92d050">passing Objects as arguments</span>
+	  - <span style="color:#92d050">**Pass-by-Value Semantics:** </span>
+			  - In Java, objects are passed by value, meaning a copy of the reference to the object is passed, not the object itself. Changes to the object's state within the method affect the original object.
+``` java
+	class MyClass {
+    int value;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        obj.value = 5;
+        modifyObject(obj);
+        System.out.println(obj.value); // Output: 10
+    }
+
+    static void modifyObject(MyClass obj) {
+        obj.value = 10;
+    }
+}
+
+```
+- <span style="color:#92d050">**Mutability and Immutability:** </span>
+	- For mutable objects, changes made to the object's state within the method affect the original object. For immutable objects, methods cannot modify the object's state but can return a new instance with desired changes.
+```java
+class Immutable {
+    final int value;
+
+    Immutable(int value) {
+        this.value = value;
+    }
+
+    Immutable add(int num) {
+        return new Immutable(this.value + num);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Immutable obj = new Immutable(5);
+        obj = obj.add(10);
+        System.out.println(obj.value); // Output: 15
+    }
+}
+
+<span style="color:#92d050">```
+- <span style="color:#92d050">**Encapsulation and Access Control:**</span>
+	- Object state is encapsulated within classes, and access to this state is controlled by methods. Methods can manipulate the object's state through its public methods, maintaining encapsulation.
+```java
+class BankAccount {
+    private double balance;
+
+    public void deposit(double amount) {
+        balance += amount;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount();
+        account.deposit(100);
+        System.out.println(account.getBalance()); // Output: 100.0
+    }
+}
+
+```
 6. **Constructors**:
 	- **Constructors**: Constructors are special methods used to initialize objects. A non-argument constructor doesn't take any parameters and is used to create objects with default initializations. A parameterized constructor takes parameters to initialize object state with specific values.
 		- **<span style="color:#92d050">Default Constructor:</span>**
