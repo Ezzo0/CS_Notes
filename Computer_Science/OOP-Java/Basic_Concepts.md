@@ -148,8 +148,8 @@ public class Car {
 		}
 	
 	```
-7. **Method Overloading**:
-	- **Method Overloading**: Method overloading allows you to define multiple methods with the same name but different parameters. The compiler determines which method to call based on the number and types of arguments passed to it. Overloading enables you to provide multiple ways to perform a task with the same method name.
+	-  **Method Overloading**:
+		- **Method Overloading**: Method overloading allows you to define multiple methods with the same name but different parameters. The compiler determines which method to call based on the number and types of arguments passed to it. Overloading enables you to provide multiple ways to perform a task with the same method name.
 		- Example: Overloading the `displayInfo` method in the `Car` class to handle different types of display.
 ```java
 public class Car {
@@ -171,4 +171,29 @@ public class Car {
 	}
 }
 
+```
+- 7.calling Constructor:
+	- The benefit of it that you added a new data Member and you want to use Constructors.
+``` java
+		public class Car {
+		    // Attributes
+		    private String brand;
+		    private String model;
+		    private int year;
+		    private int color;
+		    
+		    // Parameterized constructor
+		    public Car(String brand, String model, int year) {
+		        this.brand = brand;
+		        this.model = model;
+		        this.year = year;
+		    }
+		    public Car(String brand, String model, int year, string color){
+			    /* calling the construct*/
+				this (brand, model, year);
+				/* assigning a value to an instance variable `color` */
+				this.color = color;
+		    {
+		}
+	
 ```
