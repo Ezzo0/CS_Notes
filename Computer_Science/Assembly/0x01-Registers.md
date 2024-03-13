@@ -12,7 +12,6 @@
 		- Popping data off the stack: When data is popped off the stack, the value of the SP register is incremented by the size of the data. The data is then removed from the memory address that is now pointed to by the SP register.
 		- Calling a function: When a function is called, the return address is pushed onto the stack. The return address is the address of the instruction that should be executed after the function returns.
 		- Returning from a function: When a function returns, the return address is popped off the stack and the processor resumes execution at the address that is now pointed to by the SP register.
-
 ## <span style="color:#92d050">L<span style="color:#92d050">R - Link Register</span></span>
 
 - #LR register is a link register that stores the return address when a subroutine call is made. This is the address of the instruction that should be executed after the subroutine returns.
@@ -27,6 +26,7 @@
 	- It can also used to store temp data.
 
 ## <span style="color:#92d050">P<span style="color:#92d050">C - Program Counter</span></span>
+
 - The program counter #PC register is a register that stores the address of the next instruction to be executed.
 - The PC register is incremented by 1 after each instruction is executed. This allows the processor to keep track of the current instruction in the program.
 - The PC register is also used to jump to other instructions in the program. This can be done by loading a new value into the PC register. For example, when a subroutine is called, the return address is pushed onto the stack and the value of the PC register is loaded with the address of the subroutine. When the subroutine returns, the value of the PC register is popped off the stack and the processor resumes execution at the address that is now pointed to by the PC register.
@@ -36,8 +36,6 @@
 	- It is used to jump to other instructions in the program.
 	- It is used to store the return address when a subroutine is called.
 	- It is used to resume execution after a subroutine returns.
-
-
 ## <span style="color:#92d050">CPSR - Current Program Status Register</span>
 
 - The Current Program Status Register #CPSR is a register that holds the processor status and control information. It is a 32-bit register that is divided into four fields:
@@ -51,6 +49,7 @@
 	- To control the interrupt system, such as by enabling or disabling interrupts.
 	- To implement system calls, which are used to interact with the operating system.
 ## <span style="color:#92d050">SPSR - Saved Program Status Register</span>
+
 - The Saved Program Status Register #SPSR is a register that stores the processor status and control information when an exception is taken.
 - some of the uses of the SPSR:
 	- - To save the state of the processor when an exception is taken.

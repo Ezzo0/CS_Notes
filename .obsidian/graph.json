@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "assemb",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.713275462622446,
-  "close": false
+  "scale": 1.0000000000000067,
+  "close": true
 }
