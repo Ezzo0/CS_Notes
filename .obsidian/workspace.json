@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "Computer_Science/Assembly/0x02-Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "24d77e1c487eecd9",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "Computer_Science/Assembly/0x02-Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "Computer_Science/Assembly/0x02-Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md"
+                "file": "Computer_Science/Assembly/0x02-Code.md"
               }
             }
           },
@@ -156,12 +156,18 @@
   },
   "active": "260f6cb576055418",
   "lastOpenFiles": [
-    "README.md",
+    "Computer_Science/Assembly/0x01-Registers.md",
+    "Untitled.canvas",
+    "Computer_Science/Assembly/0x02-Code.md",
+    "Computer_Science/Assembly/0x00-Assembly.md",
     "Computer_Science/OOP/0x02-Basic_Concepts.md",
+    "Computer_Science/Assembly",
+    "Computer_Science/OOP/0x03-Inheitance.md",
+    "Computer_Science/OOP/0x03-Inheritance",
+    "README.md",
     "Computer_Science/OOP/0x01-OOP.md",
     "2024-03-13.md",
     "Computer_Science/OS/Virtualization/Process.md",
-    "Untitled.canvas",
     "Computer_Science/Syntax/Syntax.md",
     "Computer_Science/Syntax/Git.md",
     "Computer_Science/Syntax/Syntax of writing in obsidian.md",
@@ -179,7 +185,6 @@
     "Computer_Science/Computer Networks/Physical Layer.md",
     "Computer_Science/Computer Networks/Ethernet Switching.md",
     "Computer_Science/OOP-Java/README.md",
-    "Computer_Science/Computer Networks/Network Topology.md",
     "Computer_Science/OOP"
   ]
 }

@@ -261,7 +261,7 @@ obj = null; // Set obj to null to make it eligible for garbage collection
 		- **Improved Performance:** Direct invocation of static methods enhances performance.
 		- **Namespace Management:** Static nested classes help organize code by encapsulating related functionalities.
 		- **Encapsulation:** Static nested classes promote encapsulation by hiding implementation details.
-``` 
+``` java
 public class MyClass {
     static int serialNumber = 0; // Static variable
     private String name;
@@ -272,7 +272,8 @@ public class MyClass {
     }
 
     static void display() { // Static method
-        // Method body
+        /*can not use non static data but it's generic
+	    so u can not use this.data*/
     }
 }
 
