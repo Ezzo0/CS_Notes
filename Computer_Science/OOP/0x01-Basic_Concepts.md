@@ -387,8 +387,6 @@ public class Main {
 	- In Java, `==` compares the memory addresses of objects, while `.equals()` compares their content. While `==` might work for comparing strings in some cases due to string interning, it's safer to use `.equals()` for consistent behavior, especially when dealing with dynamically created strings. This ensures that the comparison is based on the actual content of the strings rather than their memory addresses.
 - ## <span style="color:#92d050">Returning Objects in Java:</span>
 	In Java, methods can return objects of a specific class, allowing them to manipulate and return complex data structures.
-	- ## <span style="color:#92d050">Example</span>
-		- Consider a class `Car` with attributes `make`, `model`, and `year`. We can define a method `upgradeCar` that takes a `Car` object, upgrades its model, and returns the modified `Car` object. 
 ```java
 public class Math {
 
