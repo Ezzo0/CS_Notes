@@ -286,10 +286,13 @@ public class OuterClass {
 }
 
 /* Usage */
-MyClass.serialNumber = 10; // Accessing static variable
-MyClass.display(); // Calling static method
-OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
+{
+	MyClass.serialNumber = 10; // Accessing static variable
+	MyClass.display(); // Calling static method
+	OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
 /* here is how u can access static class methods*/
-System.out.println(inner.print(5));
+	System.out.println(inner.print(5));
+}
+
 
 ```
