@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md"
+                "file": "README.md"
               }
             }
           },
@@ -156,11 +156,11 @@
   },
   "active": "260f6cb576055418",
   "lastOpenFiles": [
+    "Computer_Science/OOP/0x02-Basic_Concepts.md",
     "Computer_Science/OOP/0x01-OOP.md",
     "2024-03-13.md",
     "Computer_Science/OS/Virtualization/Process.md",
     "Untitled.canvas",
-    "Computer_Science/OOP/0x02-Basic_Concepts.md",
     "Computer_Science/Syntax/Syntax.md",
     "Computer_Science/Syntax/Git.md",
     "Computer_Science/Syntax/Syntax of writing in obsidian.md",
