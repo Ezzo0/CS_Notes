@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/OOP/0x00-OOP.md",
+                "file": "Computer_Science/OOP/0x01-Basic_Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/OOP/0x00-OOP.md",
+                "file": "Computer_Science/OOP/0x01-Basic_Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/OOP/0x00-OOP.md",
+                "file": "Computer_Science/OOP/0x01-Basic_Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/OOP/0x00-OOP.md"
+                "file": "Computer_Science/OOP/0x01-Basic_Concepts.md"
               }
             }
           },
@@ -156,9 +156,9 @@
   },
   "active": "b4d5f0bf98bb0055",
   "lastOpenFiles": [
+    "Computer_Science/OOP/0x00-OOP.md",
     "Computer_Science/OOP/0x02-Inheitance.md",
     "Computer_Science/OOP/0x01-Basic_Concepts.md",
-    "Computer_Science/OOP/0x00-OOP.md",
     "Computer_Science/Assembly/0x00-Assembly.md",
     "Computer_Science/OS/Virtualization/Limited Direct Execution.md",
     "Computer_Science/Assembly/0x01-Registers.md",

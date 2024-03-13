@@ -279,7 +279,9 @@ public class MyClass {
 
 public class OuterClass {
     static class InnerClass { // Static nested class
-        // Class body
+        public int print(int x){
+	        
+        }
     }
 }
 
@@ -287,5 +289,7 @@ public class OuterClass {
 MyClass.serialNumber = 10; // Accessing static variable
 MyClass.display(); // Calling static method
 OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
+/* here is how u can access static class methods*/
+System.out.println(inner.print(5));
 
 ```
