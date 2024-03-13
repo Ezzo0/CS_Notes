@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
+                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
+                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
+                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md"
+                "file": "Computer_Science/OOP/0x02-Basic_Concepts.md"
               }
             }
           },
@@ -156,15 +156,19 @@
   },
   "active": "b4221203322c013b",
   "lastOpenFiles": [
+    "Computer_Science/OOP/0x01-OOP.md",
+    "Computer_Science/OOP/0x02-Basic_Concepts.md",
+    "Computer_Science/Syntax/Syntax.md",
+    "Computer_Science/Syntax/Git.md",
+    "Computer_Science/Syntax/Syntax of writing in obsidian.md",
+    "Computer_Science/Computer Networks/IPv4 Addressing.md",
     "Computer_Science/Computer Networks/OSI Model.md",
     "Computer_Science/Computer Networks/CCNA.md",
     "2024-03-13.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Computer_Science/OOP-Java/Basic_Concepts.md",
     "Computer_Science/DSA/Sorting/Sorting.md",
     "Computer_Science/DSA/Searching/Symbol Tables.md",
-    "Computer_Science/OOP-Java/OOP.md",
     "Computer_Science/C & Embedded C/Build Process.md",
     "Computer_Science/C & Embedded C/Makefile.md",
     "Computer_Science/C & Embedded C/CMake.md",
@@ -172,10 +176,9 @@
     "Computer_Science/OS/Introduction to OS.md",
     "Computer_Science/Computer Networks/Datalink Layer.md",
     "Computer_Science/Computer Networks/Physical Layer.md",
-    "Computer_Science/Syntax/Git.md",
     "Computer_Science/Computer Networks/Ethernet Switching.md",
     "Computer_Science/OOP-Java/README.md",
     "Computer_Science/Computer Networks/Network Topology.md",
-    "Computer_Science/OOP-Java"
+    "Computer_Science/OOP"
   ]
 }
