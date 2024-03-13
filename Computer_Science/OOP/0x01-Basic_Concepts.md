@@ -390,34 +390,27 @@ public class Main {
 ```java
 public class Math {
 
-    int val;
+    int val;
 
-    static int add(Math obj1, Math obj2){
-
-        Math obj = new Math();
-
-        obj.val = obj1.val + obj2.val;
-
-        return (obj).val;
-
-    }
-
+    // Instance method to add two Math objects
+    Math add(Math obj2) {
+        Math result = new Math();
+        result.val = this.val + obj2.val;
+        return result;
+    }
 }
 
 public class App {
-
-    public static void main(String[] args) throws Exception {
-
-        Math objMath1 = new Math();
-
-        Math objMath2 = new Math();
-
-        objMath1.val = 5;
-
-        objMath2.val = 5;
-
-        System.out.println(Math.add(objMath1, objMath2));
-
-    }
+    public static void main(String[] args) {
+        Math objMath1 = new Math();
+        Math objMath2 = new Math();
+        objMath1.val = 5;
+        objMath2.val = 5;
+        
+        // Call the add method on objMath1, passing objMath2 as a parameter
+        Math result = objMath1.add(objMath2);
+        System.out.println(result.val); // Output: 10
+    }
 }
+
 ```
