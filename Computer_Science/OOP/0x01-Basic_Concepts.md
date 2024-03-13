@@ -110,9 +110,10 @@ public class Car {
 ```
 ***
 - <span style="color:#92d050">passing Objects as arguments</span>
-	  - <span style="color:#92d050">**Pass-by-Value Semantics:** </span>
+	  - <span style="color:#92d050">Pass-by-Value Semantics:</span>
 			  - In Java, objects are passed by value, meaning a copy of the reference to the object is passed, not the object itself. Changes to the object's state within the method affect the original object.
 ``` java
+/* Objects Call by value gives effect of call by refrence */
 	class MyClass {
     int value;
 }
@@ -359,13 +360,13 @@ public class OuterClass {
 }
 
 /* Usage */
-static {
-	MyClass.serialNumber = 10; // Accessing static variable
-	MyClass.display(); // Calling static method
-	OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
+
+MyClass.serialNumber = 10; // Accessing static variable
+MyClass.display(); // Calling static method
+OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
 /* here is how u can access static class methods*/
-	System.out.println(inner.print(5));
-}
+System.out.println(inner.print(5));
+
 
 ```
 11. equals():
