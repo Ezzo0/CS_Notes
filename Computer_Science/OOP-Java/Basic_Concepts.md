@@ -2,7 +2,7 @@
 1. Class
    - Definition: Blueprint for creating objects
    - Example: Car class with attributes and methods
-```
+```                                                                                 java
 public class Car {
     // Attributes
     String brand;
@@ -23,7 +23,7 @@ public class Car {
    - Definition: Specific instances of a class
    - Example: Creating car objects from the Car class
 
-```
+```                                                                                   java
 public class Main {
     public static void main(String[] args) {
         // Creating objects (instances) of the Car class
@@ -37,7 +37,7 @@ public class Main {
 2. Private Data and Data Hiding
    - Definition: Restricting access to data members within a class
    - Example: Declaring private data members in a class
-```
+``` java
 public class Car {
     // Private attributes
     private String brand;
@@ -49,8 +49,8 @@ public class Car {
 3. Setter Methods
    - Definition: Methods to set the value of private data members
    - Example: Writing setter methods for the Car class
-```
-public class Car {
+```java
+public class Car { 
     // Private attributes
     private String brand;
     private String model;
@@ -72,7 +72,7 @@ public class Car {
 
 ```
 4. Getter Methods
-```
+```java
 public class Car {
     // Private attributes
     private String brand;
@@ -97,7 +97,7 @@ public class Car {
 5. toString Method
    - Definition: Method to return a string representation of an object
    - Example: Overriding the toString method in the Car class
-```
+```java
 public class Car {
     // Attributes and methods...
     
@@ -116,7 +116,7 @@ public class Car {
 	        - Example: Creating a non-argument constructor for the `Car` class.
 	        - Note: It must be the same name of the class `Car` with no datatype
 	            
-	   ```
+	   ```java
 		public class Car {
 		    private String brand;
 		    private String model;
@@ -132,7 +132,7 @@ public class Car {
 		- **Parameterized Constructor**:
 			- Definition: A constructor that takes parameters to initialize object state.
 			- Example: Creating a parameterized constructor for the `Car` class to initialize attributes.
-	```
+	```java
 		public class Car {
 		    // Attributes
 		    private String brand;
@@ -151,7 +151,7 @@ public class Car {
 7. **Method Overloading**:
 	- **Method Overloading**: Method overloading allows you to define multiple methods with the same name but different parameters. The compiler determines which method to call based on the number and types of arguments passed to it. Overloading enables you to provide multiple ways to perform a task with the same method name.
 		- Example: Overloading the `displayInfo` method in the `Car` class to handle different types of display.
-```
+```java
 public class Car {
 	// Attributes...
 	
