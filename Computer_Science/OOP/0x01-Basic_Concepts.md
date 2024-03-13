@@ -179,7 +179,7 @@ public class Main {
 }
 
 ```
-6. **Constructors**:
+6. <span style="color:#92d050">**Constructors**:</span>
 	- **Constructors**: Constructors are special methods used to initialize objects. A non-argument constructor doesn't take any parameters and is used to create objects with default initializations. A parameterized constructor takes parameters to initialize object state with specific values.
 		- **<span style="color:#92d050">Default Constructor:</span>**
 			- In Java, a default constructor is a constructor that is automatically provided by the compiler if no constructor is explicitly defined in a class. It initializes objects with default values, such as zero for numeric types and null for reference types.
@@ -295,7 +295,7 @@ MyClass obj1 = new MyClass(10);
 MyClass obj2 = new MyClass(obj1); // Using the copy constructor
 
 ```
-9. **Finalizer or Destructor:**
+9.<span style="color:#92d050"> **Finalizer or Destructor:**</span>
 	- In Java, a finalizer (or destructor) is a special method that is called by the garbage collector before reclaiming the memory occupied by an object. It is used to perform cleanup operations or release resources associated with the object before it is garbage collected.
 ```java
 public class MyClass {
@@ -331,7 +331,7 @@ obj = null; // Set obj to null to make it eligible for garbage collection
 		- **Improved Performance:** Direct invocation of static methods enhances performance.
 		- **Namespace Management:** Static nested classes help organize code by encapsulating related functionalities.
 		- **Encapsulation:** Static nested classes promote encapsulation by hiding implementation details.
-``` java
+``` 
 public class MyClass {
     static int serialNumber = 0; // Static variable
     private String name;
@@ -346,6 +346,9 @@ public class MyClass {
 	    so u can not use this.data*/
     }
 }
+```
+- static class
+```java
 
 public class OuterClass {
     static class InnerClass { // Static nested class
@@ -356,7 +359,7 @@ public class OuterClass {
 }
 
 /* Usage */
-{
+static {
 	MyClass.serialNumber = 10; // Accessing static variable
 	MyClass.display(); // Calling static method
 	OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
@@ -365,3 +368,19 @@ public class OuterClass {
 }
 
 ```
+11. equals():
+``` java
+public class Main {
+    public static void main(String[] args) {
+        String str1 = new String("seif");
+        String str2 = new String("seif");
+        
+        System.out.println(str1 == str2); // Output: false
+    }
+}
+
+```
+- In this case, even though the content of `str1` and `str2` is the same, they are created using the `new` keyword, which explicitly creates a new string object. Therefore, `str1` and `str2` will have different memory addresses, and `str1 == str2` evaluates to `false`.
+- while using `==` might work in certain cases where string interning occurs, it's generally safer to use `.equals()` for comparing the content of strings to ensure consistent behavior across all scenarios.
+- <span style="color:#ff0000">conclusion</span>
+	- In Java, `==` compares the memory addresses of objects, while `.equals()` compares their content. While `==` might work for comparing strings in some cases due to string interning, it's safer to use `.equals()` for consistent behavior, especially when dealing with dynamically created strings. This ensures that the comparison is based on the actual content of the strings rather than their memory addresses.
