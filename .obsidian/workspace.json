@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5171361a5aad8865",
+        "id": "bc88d4727b658443",
         "type": "tabs",
         "children": [
           {
-            "id": "699d02152257b9ce",
+            "id": "d3d4ab452594d843",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/OOP-Java/Basic_Concepts.md",
+                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/OOP-Java/Basic_Concepts.md",
+                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/OOP-Java/Basic_Concepts.md",
+                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/OOP-Java/Basic_Concepts.md"
+                "file": "Computer_Science/Computer Networks/IPv4 Addressing.md"
               }
             }
           },
@@ -154,11 +154,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "699d02152257b9ce",
+  "active": "b4221203322c013b",
   "lastOpenFiles": [
+    "Computer_Science/Computer Networks/OSI Model.md",
+    "Computer_Science/Computer Networks/CCNA.md",
+    "2024-03-13.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Computer_Science/OOP-Java/Basic_Concepts.md",
     "Computer_Science/DSA/Sorting/Sorting.md",
     "Computer_Science/DSA/Searching/Symbol Tables.md",
-    "Computer_Science/OOP-Java/Basic_Concepts.md",
     "Computer_Science/OOP-Java/OOP.md",
     "Computer_Science/C & Embedded C/Build Process.md",
     "Computer_Science/C & Embedded C/Makefile.md",
@@ -167,11 +172,7 @@
     "Computer_Science/OS/Introduction to OS.md",
     "Computer_Science/Computer Networks/Datalink Layer.md",
     "Computer_Science/Computer Networks/Physical Layer.md",
-    "Computer_Science/Computer Networks/OSI Model.md",
     "Computer_Science/Syntax/Git.md",
-    "Computer_Science/Computer Networks/CCNA.md",
-    "2024-03-13.md",
-    "Untitled.canvas",
     "Computer_Science/Computer Networks/Ethernet Switching.md",
     "Computer_Science/OOP-Java/README.md",
     "Computer_Science/Computer Networks/Network Topology.md",
