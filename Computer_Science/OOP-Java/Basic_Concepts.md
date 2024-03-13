@@ -118,9 +118,13 @@ public class Car {
 	            
 	   ```
 		public class Car {
-		    // Non-argument constructor
+		    private String brand;
+		    private String model;
+		    private int year;
 		    public Car() {
-		        // Constructor body
+		    	this.brand = "Brand";
+		        this.model = "model";
+		        this.year = 2020;
 		    }
 		}       
 	
