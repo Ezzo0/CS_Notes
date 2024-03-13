@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc88d4727b658443",
+        "id": "839013f423b63c76",
         "type": "tabs",
         "children": [
           {
-            "id": "d3d4ab452594d843",
+            "id": "260f6cb576055418",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -154,9 +154,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4221203322c013b",
+  "active": "260f6cb576055418",
   "lastOpenFiles": [
     "Computer_Science/OOP/0x01-OOP.md",
+    "2024-03-13.md",
+    "Computer_Science/OS/Virtualization/Process.md",
+    "Untitled.canvas",
     "Computer_Science/OOP/0x02-Basic_Concepts.md",
     "Computer_Science/Syntax/Syntax.md",
     "Computer_Science/Syntax/Git.md",
@@ -164,9 +167,7 @@
     "Computer_Science/Computer Networks/IPv4 Addressing.md",
     "Computer_Science/Computer Networks/OSI Model.md",
     "Computer_Science/Computer Networks/CCNA.md",
-    "2024-03-13.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "Computer_Science/DSA/Sorting/Sorting.md",
     "Computer_Science/DSA/Searching/Symbol Tables.md",
     "Computer_Science/C & Embedded C/Build Process.md",
