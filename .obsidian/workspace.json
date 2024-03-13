@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "839013f423b63c76",
+        "id": "f2cc6c136424b07a",
         "type": "tabs",
         "children": [
           {
-            "id": "260f6cb576055418",
+            "id": "b4d5f0bf98bb0055",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer_Science/OOP/0x00-OOP.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer_Science/OOP/0x00-OOP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer_Science/OOP/0x00-OOP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer_Science/OOP/0x00-OOP.md"
+              }
             }
           },
           {
@@ -146,18 +154,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "260f6cb576055418",
+  "active": "b4d5f0bf98bb0055",
   "lastOpenFiles": [
+    "Computer_Science/OOP/0x02-Inheitance.md",
+    "Computer_Science/OOP/0x01-Basic_Concepts.md",
+    "Computer_Science/OOP/0x00-OOP.md",
     "Computer_Science/Assembly/0x00-Assembly.md",
+    "Computer_Science/OS/Virtualization/Limited Direct Execution.md",
     "Computer_Science/Assembly/0x01-Registers.md",
     "Computer_Science/Assembly/0x02-Code.md",
     "Untitled.canvas",
-    "Computer_Science/OOP/0x02-Basic_Concepts.md",
     "Computer_Science/Assembly",
-    "Computer_Science/OOP/0x03-Inheitance.md",
     "Computer_Science/OOP/0x03-Inheritance",
     "README.md",
-    "Computer_Science/OOP/0x01-OOP.md",
     "2024-03-13.md",
     "Computer_Science/OS/Virtualization/Process.md",
     "Computer_Science/Syntax/Syntax.md",
