@@ -294,5 +294,4 @@ public class OuterClass {
 	System.out.println(inner.print(5));
 }
 
-
 ```
