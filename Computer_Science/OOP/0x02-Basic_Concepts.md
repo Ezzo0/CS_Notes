@@ -255,27 +255,36 @@ obj = null; // Set obj to null to make it eligible for garbage collection
 ***
 10. **<span style="color:#92d050">Static Keyword</span>**
 	- In Java, the `static` keyword is used to declare variables, methods, and nested classes that belong to the class itself rather than to instances (objects) of the class. Static members are shared among all instances of the class and can be accessed using the class name.
-``` java
+	- **Benefits of Using `static`:**
+		- **Shared Data:** Static variables are shared among all instances, conserving memory.
+		- **Utility Methods:** Static methods don't require object instantiation and are handy for general tasks.
+		- **Improved Performance:** Direct invocation of static methods enhances performance.
+		- **Namespace Management:** Static nested classes help organize code by encapsulating related functionalities.
+		- **Encapsulation:** Static nested classes promote encapsulation by hiding implementation details.
+``` 
 public class MyClass {
-    static int count; // Static variable
-}
-/*--------------------------------------------*/
-public class MyClass {
+    static int serialNumber = 0; // Static variable
+    private String name;
+
+    public void myMethod(String name) {
+        this.name = name;
+        serialNumber++;
+    }
+
     static void display() { // Static method
         // Method body
     }
 }
-/*--------------------------------------------*/
+
 public class OuterClass {
     static class InnerClass { // Static nested class
         // Class body
     }
 }
-```
-- <span style="color:#00b0f0">Usage:</span> 
-```java
-MyClass.count = 10; // Accessing static variable
+
+/* Usage */
+MyClass.serialNumber = 10; // Accessing static variable
 MyClass.display(); // Calling static method
 OuterClass.InnerClass inner = new OuterClass.InnerClass(); // Creating an instance of a static nested class
-	
+
 ```
