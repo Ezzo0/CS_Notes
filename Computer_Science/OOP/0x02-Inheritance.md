@@ -88,7 +88,7 @@ class Subclass extends Superclass {
 	```
 - Method signature (name, parameter types, return type) <span style="color:#ff0000">must match</span> the superclass method.
 - Annotation `@Override` is used to indicate that a method is intended to <span style="color:#ff0000">override a superclass method.</span>
-> [!override] explaination
+> [!override] #Override
 >	The `@Override` annotation is used in Java to explicitly indicate that a method in a subclass is intended to override a method in the superclass.
 	  It helps in catching errors at compile-time by informing the compiler to check if the annotated method is indeed overriding a method from the superclass.
 #### <span style="color:#92d050">Super Keyword:</span>
