@@ -91,15 +91,15 @@ class Subclass extends Superclass {
 > [!override] explaination
 >	The `@Override` annotation is used in Java to explicitly indicate that a method in a subclass is intended to override a method in the superclass.
 	  It helps in catching errors at compile-time by informing the compiler to check if the annotated method is indeed overriding a method from the superclass.
-#### <span style="color:#92d050">Super Keyword:</span>
+- #### <span style="color:#92d050">Super Keyword:</span>
 
-- The `super` keyword is used to refer to superclass members (fields, methods, constructors) from within a subclass.
-- It can be used to call superclass constructors, access superclass methods, and access superclass fields hidden by the subclass.
+	- The `super` keyword is used to refer to superclass members (fields, methods, constructors) from within a subclass.
+	- It can be used to call superclass constructors, access superclass methods, and access superclass fields hidden by the subclass.
 
-#### <span style="color:#92d050">Final Classes and Methods:</span>
+- #### <span style="color:#92d050">Final Classes and Methods:</span>
 
-- Use the `final` keyword to prevent a class from being sub classed (final class) or a method from being overridden (final method).
-- Final classes cannot have subclasses, and final methods cannot be overridden in subclasses.
+	- Use the `final` keyword to prevent a class from being sub classed (final class) or a method from being overridden (final method).
+	- Final classes cannot have subclasses, and final methods cannot be overridden in subclasses.
 ```java
 public class FinalExample {
     // Final variable
