@@ -1,7 +1,7 @@
-- ## <span style="color:#92d050">Introduction to Inheritance:</span>
-	- Inheritance is very important concept in OOP that allows class (sub-class, child, derived) to inherit from another - (super, parent, base) class.
-	- It promotes code reusability and establishes a hierarchical relationship between classes.
-- ## <span style="color:#92d050">Key Terminology</span>:
+## <span style="color:#92d050">Introduction to Inheritance:</span>
+- Inheritance is very important concept in OOP that allows class (sub-class, child, derived) to inherit from another - (super, parent, base) class.
+- It promotes code reusability and establishes a hierarchical relationship between classes.
+- ## <span style="color:#92d050">Key Terminology:</span>
 	- **Superclass/Parent/Base Class**: The class whose properties and behaviors are inherited.
 	- **Subclass/Child/Derived Class**: The class that inherits properties and behaviors from the superclass.
 	- **extends Keyword**: Used in Java to establish inheritance between classes. The subclass extends the superclass.
