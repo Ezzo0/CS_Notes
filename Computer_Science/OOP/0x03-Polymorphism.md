@@ -12,8 +12,8 @@
 	2. **Runtime Polymorphism:** Also known as dynamic polymorphism, it is achieved through method overriding.
 	    - Method calls are resolved at runtime based on the actual type of the object.
 
-- ## Method Overloading
-
+- ## Method Overloading <span style="color:#92d050">(Early or Static Binding)</span> - <span style="color:#92d050">(compile-time polymorphism)</span>
+	
 	- **Definition:** Method overloading allows a class to have multiple methods with the same name but different parameters.
 	- **Example:**
 ```java
@@ -28,7 +28,7 @@ class Math {
 }
 
 ```
-- ## Method Overriding
+- ## Method Overriding <span style="color:#92d050">(Late or Dynamic Binding )</span> - <span style="color:#92d050">(run-rime Polymorphism)</span>
 
 	- **Definition:** Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.
 	- **Example:**
