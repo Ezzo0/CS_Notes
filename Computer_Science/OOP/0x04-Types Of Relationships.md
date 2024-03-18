@@ -87,6 +87,6 @@ Department department = new Department();
 
 ```
 - **Garbage Collector**: In aggregation, objects that are part of the whole (e.g., employees in a department) are not automatically cleaned up by the garbage collector when the whole object is no longer in use. They may exist independently and be managed separately.
-**Composition Vs Aggregation**
+## **Composition Vs Aggregation**
 - The composition and aggregation are two subsets of association. In both of the cases, the object of one class is owned by the object of another class; the only difference is that in composition, the child does not exist independently of its parent, whereas in aggregation, the child is not dependent on its parent i.e., standalone. An aggregation is a special form of association, and composition is the special form of aggregation.
-![[Pasted image 20240318174545.png]]
+![[Pasted image 20240318174545.png]]![[Screenshot (58).png]]
