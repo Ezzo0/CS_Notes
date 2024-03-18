@@ -90,3 +90,41 @@ Department department = new Department();
 ## **<span style="color:#92d050">Composition Vs Aggregation</span>**
 - The composition and aggregation are two subsets of association. In both of the cases, the object of one class is owned by the object of another class; the only difference is that in composition, the child does not exist independently of its parent, whereas in aggregation, the child is not dependent on its parent i.e., standalone. An aggregation is a special form of association, and composition is the special form of aggregation.
 ![[Pasted image 20240318174545.png]]![[Screenshot (58).png]]
+## #Final Key word
+- ### **Final Variables**:
+	- When applied to a variable, the `final` keyword indicates that its value cannot be changed once initialized. For primitive data types, this means the value cannot be reassigned. For reference types (objects), it means the reference cannot be changed after initialization, although the state of the object itself can still be modified.
+
+```java
+final int x = 10; // Once assigned, the value of x cannot be changed.
+final MyClass obj = new MyClass(); // The reference stored in obj cannot be changed.
+```
+- ### **Final Methods**: 
+	- When applied to a method, the `final` keyword indicates that the method cannot be overridden by subclasses. This is often used to prevent modification of critical methods in a class, ensuring their behavior remains consistent across subclasses.
+```java
+class Parent {
+    final void display() {
+        System.out.println("This method cannot be overridden.");
+    }
+}
+
+class Child extends Parent {
+    // This will cause a compilation error since display() is final in the Parent class.
+    void display() {
+        System.out.println("This method cannot be overridden.");
+    }
+}
+
+```
+- ### **Final Classes**: 
+	- When applied to a class, the `final` keyword indicates that the class cannot be subclassed. This means no other class can inherit from a `final` class.
+```java
+final class FinalClass {
+    // Some code
+}
+
+// This will cause a compilation error since FinalClass is final and cannot be subclassed.
+class SubClass extends FinalClass {
+    // Some code
+}
+
+```
