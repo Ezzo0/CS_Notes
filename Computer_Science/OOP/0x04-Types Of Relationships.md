@@ -1,4 +1,4 @@
-## Association
+## <span style="color:#92d050">Association</span>
 
 - **Definition**: Association represents a relationship between two or more classes.
 - **Characteristics**:
@@ -31,7 +31,7 @@ Car car = new Car(engine);
 
 ```
 - **Garbage Collector**: In association, objects referenced by one class may be automatically cleaned up by the garbage collector if there are no other references to them, even if the association is severed.
-## Composition
+## <span style="color:#92d050">Composition</span>
 
 - **Definition**: Composition is a strong form of association where one class (whole) is composed of other classes (parts).
 - **Characteristics**:
@@ -59,7 +59,7 @@ Car car = new Car();
 
 ```
 - **Garbage Collector**: In composition, objects that are part of the whole (e.g., engine in a car) are automatically cleaned up by the garbage collector when the whole object is no longer in use.
-## Aggregation
+## <span style="color:#92d050">Aggregation</span>
 
 - **Definition**: Aggregation is a weak form of association where one class (whole) has a relationship with another class (part).
 - **Characteristics**:
@@ -87,6 +87,6 @@ Department department = new Department();
 
 ```
 - **Garbage Collector**: In aggregation, objects that are part of the whole (e.g., employees in a department) are not automatically cleaned up by the garbage collector when the whole object is no longer in use. They may exist independently and be managed separately.
-## **Composition Vs Aggregation**
+## **<span style="color:#92d050">Composition Vs Aggregation</span>**
 - The composition and aggregation are two subsets of association. In both of the cases, the object of one class is owned by the object of another class; the only difference is that in composition, the child does not exist independently of its parent, whereas in aggregation, the child is not dependent on its parent i.e., standalone. An aggregation is a special form of association, and composition is the special form of aggregation.
 ![[Pasted image 20240318174545.png]]![[Screenshot (58).png]]
