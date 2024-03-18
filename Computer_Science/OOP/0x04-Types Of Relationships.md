@@ -128,4 +128,4 @@ class SubClass extends FinalClass {
 }
 
 ```
-![[Pasted image 20240319014144.png]]
+![[Pasted image 20240319014557.png]]
