@@ -65,7 +65,8 @@ Car car = new Car();
 - **Characteristics**:
     - Parts can exist independently of the whole.
     - Parts may belong to multiple wholes.
-- **UML Representation**:![[Pasted image 20240318174625.png]]
+- **UML Representation**:
+	 ![[Pasted image 20240318174625.png]]
 ```java
 public class Department {
     private List<Employee> employees; // Aggregation relationship

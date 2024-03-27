@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer_Science/OOP/0x00-OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a469b40d0e4188e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer_Science/OOP/0x04-Types Of Relationships.md",
+                "file": "Computer_Science/OOP/0x05-Abstact.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer_Science/OOP/0x04-Types Of Relationships.md",
+                "file": "Computer_Science/OOP/0x05-Abstact.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer_Science/OOP/0x04-Types Of Relationships.md",
+                "file": "Computer_Science/OOP/0x05-Abstact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer_Science/OOP/0x04-Types Of Relationships.md"
+                "file": "Computer_Science/OOP/0x05-Abstact.md"
               }
             }
           },
@@ -168,11 +155,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a469b40d0e4188e5",
+  "active": "b4d5f0bf98bb0055",
   "lastOpenFiles": [
+    "Computer_Science/OOP/0x00-OOP.md",
+    "Computer_Science/OOP/0x05-Abstact.md",
+    "Computer_Science/OOP/0x04-Types Of Relationships.md",
+    "Computer_Science/OOP/0x03-Polymorphism.md",
+    "Computer_Science/DSA/Sorting/Merge Sort.md",
+    "Computer_Science/OOP/0x02-Inheritance.md",
+    "Computer_Science/OOP/0x01-Basic_Concepts.md",
+    "Computer_Science/DSA/Graphs/Directed Graphs.md",
     "Computer_Science/pics/Pasted image 20240319014557.png",
     "Computer_Science/pics/Pasted image 20240319014144.png",
-    "Computer_Science/OOP/0x00-OOP.md",
     "Computer_Science/pics/Screenshot (58).png",
     "Computer_Science/pics/Pasted image 20240318174634.png",
     "Computer_Science/pics/Pasted image 20240318174625.png",
@@ -181,10 +175,6 @@
     "Computer_Science/pics/Pasted image 20240318174319.png",
     "Computer_Science/pics/Pasted image 20240318174240.png",
     "Computer_Science/pics/Pasted image 20240318174229.png",
-    "Computer_Science/OOP/0x04-Types Of Relationships.md",
-    "Computer_Science/OOP/0x03-Polymorphism.md",
-    "Computer_Science/OOP/0x02-Inheritance.md",
-    "Computer_Science/OOP/0x01-Basic_Concepts.md",
     "Untitled",
     "Computer_Science/OOP/0x02-Passing Objects.md",
     "Computer_Science/Assembly/0x00-Assembly.md",
@@ -208,8 +198,6 @@
     "Computer_Science/DSA/Searching/Symbol Tables.md",
     "Computer_Science/C & Embedded C/Build Process.md",
     "Computer_Science/C & Embedded C/Makefile.md",
-    "Computer_Science/C & Embedded C/CMake.md",
-    "Computer_Science/OS/Introduction to OS.md",
     "Computer_Science/OOP"
   ]
 }

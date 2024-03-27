@@ -27,7 +27,7 @@ class Subclass extends Superclass {
 	2. **Multilevel Inheritance**: A subclass extends another subclass, creating a chain of inheritance.
 	3. **Hierarchical Inheritance**: Multiple subclasses inherit from a single superclass.
 	4. **Multiple Inheritance <span style="color:#ff0000">(Not Supported in Java)</span>**: A class inherits from multiple classes. Java doesn't support this directly to avoid the diamond problem, but it can be achieved through interfaces. <span style="color:#7030a0">(found in c++)</span>
-	
+
 #### <span style="color:#92d050">Constructors in Inheritance:</span>
 - Constructors <span style="color:#ff0000">are not inherited</span> but are <span style="color:#00b0f0">called implicitly</span> when an object of a subclass is created.
 - The superclass constructor is <span style="color:#00b0f0">invoked</span> before the subclass constructor.
