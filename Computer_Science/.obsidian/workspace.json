@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c43c7e88cd3bcfe",
+        "id": "ae5d23b6cf375f34",
         "type": "tabs",
         "children": [
           {
-            "id": "8fff4d1abb3ebe60",
+            "id": "7504bcebe249deb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C & Embedded C/CMake.md",
+                "file": "AUTOSAR/0x02_Diagnostics Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Quicksort overview",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C & Embedded C/CMake.md",
+                "file": "AUTOSAR/0x02_Diagnostics Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C & Embedded C/CMake.md",
+                "file": "AUTOSAR/0x02_Diagnostics Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C & Embedded C/CMake.md"
+                "file": "AUTOSAR/0x02_Diagnostics Stack.md"
               }
             }
           },
@@ -158,20 +158,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fff4d1abb3ebe60",
+  "active": "7504bcebe249deb3",
   "lastOpenFiles": [
-    "C & Embedded C/CMake.md",
+    "AUTOSAR/0x02_Diagnostics Stack.md",
+    "AUTOSAR/0x01_Memory Stack.md",
+    "AUTOSAR/0x00_Intro to AUTOSAR.md",
+    "pics/DCM Timing Parameters.png",
+    "pics/Overview of diagnostics modules.png",
+    "pics/WDBI_response_format.png",
+    "pics/WDBI_request_format.png",
+    "pics/RDBI_response_format.png",
+    "pics/RDBI_request_format.png",
+    "pics/key_response_format.png",
+    "pics/key_request_format.png",
+    "pics/security_Response_Format.png",
+    "pics/security_Request_Format.png",
+    "OOP/0x06-Interface.md",
+    "OOP/0x05-Abstact.md",
+    "OOP/0x03-Polymorphism.md",
+    "OOP/0x02-Inheritance.md",
+    "OOP/0x01-Basic_Concepts.md",
+    "OOP/0x00-OOP.md",
+    "Assembly/0x01-Registers.md",
+    "Assembly/0x02-Code.md",
+    "ARM/Architecture/Application Program Status Register (APSR).md",
     "OS/Introduction to OS.md",
-    "pics/Various exception sources.png",
-    "pics/symboltableRowelements.png",
-    "pics/symboltableandcode.png",
-    "pics/symbol_table.png",
-    "pics/Switching between privileged thread mode and unprivileged thread mode.png",
-    "pics/Switching between ARM code and Thumb code in classic ARM processors.png",
-    "pics/Special Registers.png",
-    "pics/ROM_&_RAM_sections.png",
-    "pics/reset_sequence.png",
-    "pics/Reset sequence.png",
+    "Intro to Linux.md",
+    "Syntax/Git.md",
+    "AUTOSAR",
+    "Syntax/Syntax of writing in obsidian.md",
+    "Syntax/Syntax.md",
+    "C & Embedded C/CMake.md",
     "C & Embedded C/Makefile.md",
     "C & Embedded C/Build Process.md",
     "C & Embedded C",
@@ -180,31 +197,14 @@
     "ARM/Architecture/Programmer’s model.md",
     "ARM/Architecture/Exceptions and interrupts.md",
     "ARM/Architecture/Memory system.md",
-    "ARM/Architecture/Application Program Status Register (APSR).md",
-    "ARM/Reset Mechanism & Reset Sequence.md",
     "ARM/Instruction Set⁯",
-    "ARM/Cortex-M3 & Cortex-M4 Processors.md",
-    "ARM/Boot-Loader.md",
     "ARM/Architecture",
     "ARM",
-    "Computer Networks/OSI Model.md",
-    "Data Structures & Algorithms/Graphs/Graphs.md",
-    "Syntax/Syntax of writing in obsidian.md",
-    "Syntax/Syntax.md",
-    "Syntax/Git.md",
-    "Intro to Linux.md",
-    "Data Structures & Algorithms/Graphs/Undirected Graphs.md",
-    "Data Structures & Algorithms/Graphs/Directed Graphs.md",
-    "Computer Networks/IPv4 Addressing.md",
-    "Computer Networks/Ethernet Switching.md",
-    "Computer Networks/Datalink Layer.md",
-    "Computer Networks/Physical Layer.md",
     "AI",
     "Computer Networks",
     "Data Structures & Algorithms/Graphs",
     "Data Structures & Algorithms/Searching",
     "pics",
-    "New folder",
     "Untitled.canvas"
   ]
 }
