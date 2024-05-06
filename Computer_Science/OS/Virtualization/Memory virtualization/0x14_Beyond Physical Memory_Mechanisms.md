@@ -7,14 +7,14 @@
 - Some space on the disk for moving pages back and forth is called **swap space**.
 - To read from and write to the swap space, the OS will need to remember the **disk address** of a given page.
 ##### The Present Bit
-- The way the hardware (or the OS, in a software-managed [[Faster Translations (TLBs)|TLB]] approach) determines this that the page is present in physical memory or not is through a new piece of information in each [[Introduction to Paging#What’s Actually In The Page Table?|page-table entry]], known as the **present bit**.
+- The way the hardware (or the OS, in a software-managed [[0x12_Faster Translations (TLBs)|TLB]] approach) determines this that the page is present in physical memory or not is through a new piece of information in each [[0x11_Introduction to Paging#What’s Actually In The Page Table?|page-table entry]], known as the **present bit**.
 - If the present bit is set to one, it means the page is present in physical memory; if it is set to zero, the page is not in memory but rather on disk somewhere.
 - The act of accessing a page that is not in physical memory is commonly referred to as a **page fault**.
 - A particular piece of code, known as a **page-fault handler**, runs, and must service the page fault.
 ##### The Page Fault
 - If a page is not present and has been swapped to disk, the OS will need to swap the page into memory in order to service the page fault.
 - In many systems, the page table is a natural place to store such information.
-- Thus, the OS could use the bits in the [[Introduction to Paging#What’s Actually In The Page Table?|PTE]] normally used for data such as the PFN of the page for a disk address.
+- Thus, the OS could use the bits in the [[0x11_Introduction to Paging#What’s Actually In The Page Table?|PTE]] normally used for data such as the PFN of the page for a disk address.
 - When the OS receives a page fault for a page, it looks in the PTE to find the address, and issues the request to disk to fetch the page into memory.
 - When the disk I/O completes, the OS will then: 
 	1. update the page table to mark the page as present.

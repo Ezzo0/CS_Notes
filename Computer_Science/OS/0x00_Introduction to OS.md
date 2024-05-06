@@ -7,8 +7,8 @@
 - A typical OS exports a few hundred **system calls** that are available to applications. 
 - Because the OS provides these calls to **_run programs, access memory and devices, and other related actions_**, we also sometimes say that the OS provides a standard library to applications.
 - Turning a single CPU (or a small set of them) into a seemingly infinite number of CPUs and thus allowing many programs to seemingly run at once is called **virtualizing the CPU**.
-- Each [[Process]] accesses its own **_private virtual address space_**, which the OS somehow maps onto the physical memory of the machine is called **Virtualizing Memory**.
-- The software in the operating system that usually manages the disk is called the file system; it is responsible for storing any files the user creates in a reliable and efficient manner on the disks of the system.
+- Each [[0x01_Process|process]] accesses its own **_private virtual address space_**, which the OS somehow maps onto the physical memory of the machine is called **Virtualizing Memory**.
+- The software in the operating system that usually manages the disk is called the **file system**; it is responsible for storing any files the user creates in a reliable and efficient manner on the disks of the system.
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 2
 - [Lecture 1 - part 1](https://youtu.be/3uMbb9dLtlE)

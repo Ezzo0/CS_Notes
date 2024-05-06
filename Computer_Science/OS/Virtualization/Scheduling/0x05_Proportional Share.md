@@ -1,7 +1,7 @@
 # Explanation
 - Proportional-share is based around a simple concept: instead of optimizing for turnaround or response time, a scheduler might instead try to guarantee that each job obtain a **certain percentage of CPU time**.
 ##### Basic Concept: Tickets Represent Your Share
-- Tickets are used to represent the share of a resource that a [[Process]] or user should receive.
+- Tickets are used to represent the share of a resource that a [[0x01_Process|process]] or user should receive.
 - The **percent of tickets** that a process has represents its **share** of the system resource.
 - Lottery scheduling achieves this probabilistically (but not deterministically) by holding a lottery every so often (say, every time slice).
 - The scheduler must know how many total tickets there are.

@@ -1,11 +1,11 @@
 # Explanation
 - The fundamental problem MLFQ tries to address is two-fold. 
-	1. First, it would like to optimize turnaround time, which, is done by running shorter jobs first; unfortunately, the OS doesn’t generally know how long a job will run for, exactly the knowledge that algorithms like [[Introduction to scheduling#Shortest Job First (SJF)|SJF]] (or [[Introduction to scheduling#Shortest Time-to-Completion First (STCF)|STCF]]) require. 
-	2. Second, MLFQ would like to make a system feel responsive to interactive users, and minimize response time; unfortunately, algorithms like [[Introduction to scheduling#Round Robin|Round Robin]] reduce response time but are terrible for turnaround time.
+	1. First, it would like to optimize turnaround time, which, is done by running shorter jobs first; unfortunately, the OS doesn’t generally know how long a job will run for, exactly the knowledge that algorithms like [[0x03_Introduction to scheduling#Shortest Job First (SJF)|SJF]] (or [[0x03_Introduction to scheduling#Shortest Time-to-Completion First (STCF)|STCF]]) require. 
+	2. Second, MLFQ would like to make a system feel responsive to interactive users, and minimize response time; unfortunately, algorithms like [[0x03_Introduction to scheduling#Round Robin|Round Robin]] reduce response time but are terrible for turnaround time.
 ##### MLFQ: Basic Rules
 - The MLFQ has a number of distinct queues, each assigned a different **priority level**.
-- MLFQ uses priorities to decide which job should run at a given time: a job with higher priority (i.e., a [[Process]] on a higher queue) is chosen to run.
-- Of course, more than one job may be on a given queue, and thus have the same priority. In this case, we will just use [[Introduction to scheduling#Round Robin|Round Robin]] scheduling among those jobs.
+- MLFQ uses priorities to decide which job should run at a given time: a job with higher priority (i.e., a [[0x01_Process|process]] on a higher queue) is chosen to run.
+- Of course, more than one job may be on a given queue, and thus have the same priority. In this case, we will just use [[0x03_Introduction to scheduling#Round Robin|Round Robin]] scheduling among those jobs.
 - The key to MLFQ scheduling therefore lies in how the scheduler sets priorities. 
 - Rather than giving a fixed priority to each job, MLFQ varies the priority of a job based on its **observed behavior**. 
 	- If, for example, a job repeatedly relinquishes the CPU while waiting for input from the keyboard, MLFQ will keep its priority high, as this is how an interactive process might behave. 
@@ -22,6 +22,7 @@
 	- Secondly, a program may change its behavior over time; what was CPU-bound may transition to a phase of interactivity. With our current approach, such a job would be out of luck and not be treated like the other interactive jobs in the system.
 ##### The Priority Boost
 - The simple idea here is to periodically boost the priority of all the jobs in the system by throwing them all in the **topmost queue after some time period S**.
+- Our new rule solves two problems at once. First, processes are guaranteed not to starve: by sitting in the top queue, a job will share the CPU with other high-priority jobs in a round-robin fashion, and thus eventually receive service. Second, if a CPU-bound job has become interactive, the scheduler treats it properly once it has received the priority boost.
     ![[Priority Boost.png|600]]
 ##### Better Accounting
 - The solution to prevent **gaming of our scheduler** is to perform better accounting of CPU time at each level of the MLFQ.

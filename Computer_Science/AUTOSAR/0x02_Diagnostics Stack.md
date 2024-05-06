@@ -20,15 +20,15 @@
 		![[Service_Negative_Response.png|500]]
 ##### UDS Services
 - Most Common UDS Services are:
-	1. Diagnostic Session Control (0x10)
-	2. ECU Reset (0x11)
-	3. Security Access (0x27)
-	4. Tester Present (0x3E)
-	5. Read Data By Identifier (0x22)
-	6. Write Data By Identifier (0x2E)
-	7. Read DTC Information (0x19)
-	8. Clear Diagnostic Information (0x14)
-	9. Control DTC Settings (0x85)
+	01. Diagnostic Session Control (0x10)
+	02. ECU Reset (0x11)
+	03. Security Access (0x27)
+	04. Tester Present (0x3E)
+	05. Read Data By Identifier (0x22)
+	06. Write Data By Identifier (0x2E)
+	07. Read DTC Information (0x19)
+	08. Clear Diagnostic Information (0x14)
+	09. Control DTC Settings (0x85)
 	10. Routine Control (0x31)
 - You can determine each session services and its sub-services.
 ##### Diagnostic Session Control
@@ -187,7 +187,7 @@
 - DEM gives **priority** to each event.
 - When an event, that is in its operation cycle, is reported to DEM, DEM will collect some data related to this event. These data are called **Environmental Data**, **Snapshot Data**, or **Freeze Frame**.
 - **Enable conditions** feature means that DEM can receive a reported event when all conditions in the group are set.
-- **Function Inhibition manger -FIB-** is disabling some functions that are related to an event when DEM has a reported for that event.
+- **Function Inhibition manger -FIM-** is disabling some functions that are related to an event when DEM has a reported for that event.
 ##### DEM Event Displacement Algorithm
 - If memory that store events is full, DEM will or will not store an event based on its priority:
 	- If event's priority is **less than** all priorities of events in memory, it will **not be stored** in memory.

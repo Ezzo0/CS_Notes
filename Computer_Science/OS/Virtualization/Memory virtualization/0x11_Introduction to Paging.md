@@ -1,6 +1,6 @@
 # Explanation
 - The operating system takes one of two approaches when solving most any space-management problem:
-	1. Chop things up into variable-sized pieces, as we saw with [[Segmentation]] in virtual memory.
+	1. Chop things up into variable-sized pieces, as we saw with [[0x09_Segmentation|segmentation]] in virtual memory.
 		- This solution has inherent difficulties. In particular, when dividing a space into different-size chunks, the space itself can become **fragmented**, and thus allocation becomes more challenging over time. 
 	2. Chop up space into _fixed-sized_ pieces.
 		- This idea is called **paging**.
@@ -9,7 +9,7 @@
 			![[paging.png|500]]
 - Paging has a number of advantages over our previous approaches:
 	1. **flexibility**: for example, make assumptions about the direction the heap and stack grow and how they are used.
-	2. **simplicity** of free-space management: For example, when the OS wishes to place 64-byte address space into our eight-page physical memory, it simply finds 4 free pages; perhaps the OS keeps a **[[Free-Space Management#Low-level Mechanisms|free list]]** of all free pages for this, and just grabs the first four free pages off of this list.
+	2. **simplicity** of free-space management: For example, when the OS wishes to place 64-byte address space into our eight-page physical memory, it simply finds 4 free pages; perhaps the OS keeps a **[[0x10_Free-Space Management#Low-level Mechanisms|free list]]** of all free pages for this, and just grabs the first four free pages off of this list.
 - To record where each virtual page of the address space is placed in physical memory, the operating system usually keeps a _per-process_ data structure known as a **page table**. ^6dd76f
 - The major role of the page table is to store **address translations** for each of the virtual pages of the address space.
 - Each process has its page table.

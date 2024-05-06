@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ae5d23b6cf375f34",
+        "id": "c6e4255278970b62",
         "type": "tabs",
         "children": [
           {
-            "id": "7504bcebe249deb3",
+            "id": "886c741e79454760",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AUTOSAR/0x04_Communication Stack.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AUTOSAR/0x04_Communication Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AUTOSAR/0x04_Communication Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AUTOSAR/0x04_Communication Stack.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,46 +150,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7504bcebe249deb3",
+  "active": "886c741e79454760",
   "lastOpenFiles": [
+    "AUTOSAR/0x04_Wdg Stack.md",
+    "OS/Virtualization/Memory virtualization/0x14_Beyond Physical Memory_Mechanisms.md",
+    "OS/Virtualization/Memory virtualization/0x15_Beyond Physical Memory_Policies.md",
+    "OS/Virtualization/Memory virtualization/0x13_Smaller Tables.md",
+    "OS/Virtualization/Memory virtualization/0x12_Faster Translations (TLBs).md",
+    "OS/Virtualization/Memory virtualization/0x11_Introduction to Paging.md",
+    "OS/Virtualization/Memory virtualization/0x10_Free-Space Management.md",
     "AUTOSAR/0x00_Intro to AUTOSAR.md",
-    "AUTOSAR/0x01_Memory Stack.md",
-    "AUTOSAR/0x04_Communication Stack.md",
+    "pics/Logical supervision.PNG",
+    "pics/Deadline supervision.PNG",
+    "pics/wdg_stack.PNG",
     "AUTOSAR/0x02_Diagnostics Stack.md",
-    "pics/DCM Timing Parameters.png",
-    "pics/Overview of diagnostics modules.png",
-    "pics/WDBI_response_format.png",
-    "pics/WDBI_request_format.png",
-    "pics/RDBI_response_format.png",
-    "pics/RDBI_request_format.png",
-    "pics/key_response_format.png",
-    "pics/key_request_format.png",
-    "pics/security_Response_Format.png",
-    "pics/security_Request_Format.png",
-    "OOP/0x06-Interface.md",
-    "OOP/0x05-Abstact.md",
-    "OOP/0x03-Polymorphism.md",
-    "OOP/0x02-Inheritance.md",
-    "OOP/0x01-Basic_Concepts.md",
-    "OOP/0x00-OOP.md",
-    "Assembly/0x01-Registers.md",
-    "Assembly/0x02-Code.md",
-    "ARM/Architecture/Application Program Status Register (APSR).md",
-    "OS/Introduction to OS.md",
+    "AUTOSAR/0x03_Communication Stack.md",
+    "pics/Network shutdown.PNG",
+    "pics/Active wakeup.PNG",
+    "pics/Passive wakeup.PNG",
+    "pics/Capture.PNG",
+    "pics/comm_states.png",
+    "pics/pduGroups.png",
+    "pics/timeout_RX.png",
+    "AUTOSAR/0x01_Memory Stack.md",
+    "OS/Virtualization/Memory virtualization/0x09_Segmentation.md",
+    "OS/Virtualization/Memory virtualization/0x08_Address Translation.md",
+    "OS/Virtualization/0x01_Process.md",
+    "OS/Virtualization/Memory virtualization/0x07_Address Spaces.md",
+    "OS/Virtualization/Scheduling/0x05_Proportional Share.md",
     "Intro to Linux.md",
+    "OS/Virtualization/Scheduling/0x06_Multiprocessor Scheduling.md",
+    "OS/Virtualization/Scheduling/0x04_The Multi-Level Feedback Queue.md",
+    "OS/Virtualization/Scheduling/0x03_Introduction to scheduling.md",
+    "OS/Virtualization/0x02_Limited Direct Execution.md",
+    "OS/0x00_Introduction to OS.md",
     "Syntax/Git.md",
-    "AUTOSAR",
-    "Syntax/Syntax of writing in obsidian.md",
     "Syntax/Syntax.md",
-    "C & Embedded C/CMake.md",
-    "C & Embedded C/Makefile.md",
-    "C & Embedded C/Build Process.md",
+    "Syntax/Syntax of writing in obsidian.md",
+    "AUTOSAR",
     "C & Embedded C",
-    "ARM/Instruction Set⁯/Instruction set (Assembly).md",
-    "ARM/Instruction Set⁯/Background to the instruction set in ARM Cortex-M processors.md",
-    "ARM/Architecture/Programmer’s model.md",
-    "ARM/Architecture/Exceptions and interrupts.md",
-    "ARM/Architecture/Memory system.md",
     "ARM/Instruction Set⁯",
     "ARM/Architecture",
     "ARM",

@@ -36,7 +36,7 @@
 	- communication stays intra ECU.
 ##### AUTOSAR Stacks
 - AUTOSAR architecture consists of 4 stacks:
-	- [[0x04_Communication Stack|Communication stack]].
+	- [[0x03_Communication Stack|Communication stack]].
 	- [[0x01_Memory Stack|Memory stack]].
 	- System stack.
 	- I/O stack.
@@ -48,7 +48,7 @@
 	- Watchdog management.
 - **[[0x01_Memory Stack|Memory Stack]]** is responsible for:
 	- Services for reading / writing to NV memory.
-- **[[0x04_Communication Stack|Communication Stack]]** is responsible for:
+- **[[0x03_Communication Stack|Communication Stack]]** is responsible for:
 	- Message transmission / reception through different communication protocols.
 	- Diagnostics.
 	- Network management.

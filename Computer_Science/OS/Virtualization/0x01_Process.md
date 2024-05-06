@@ -21,7 +21,7 @@
 - Modern OSes **_perform the process lazily_**, i.e., **by loading pieces of code or data only as they are needed during program execution**.
 - Once the code and static data are loaded into memory, there are a few other things the OS needs to do before running the process. 
 	- Some memory must be allocated for the program’s run-time stack (or just stack).
-	- OS allocates this memory and gives it to the process. The OS will also likely initialize the stack with arguments; specifically, it will fill in the parameters to the main() function, i.e., argc and the argv array.
+	- OS allocates this memory and gives it to the process. The OS will also likely initialize the stack with arguments; specifically, it will fill in the parameters to the `main()` function, i.e., argc and the argv array.
 	- The OS may also allocate some memory for the program’s heap.
 	- The OS will also do some other initialization tasks related to input/output (I/O).
 	- Jumping to the `main()` routine. Now, the OS transfers control of the CPU to the newly-created process, and thus the program begins its execution.

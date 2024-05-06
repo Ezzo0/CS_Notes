@@ -1,5 +1,5 @@
 # Explanation
-- With the [[Address Translation#Dynamic Relocation (base and bounds)|base and bounds registers]], the OS can easily relocate processes to different parts of physical memory. 
+- With the [[0x08_Address Translation#Dynamic Relocation (base and bounds)|base and bounds registers]], the OS can easily relocate processes to different parts of physical memory. 
 - However, you might have noticed something about these address spaces of ours: there is a big chunk of “free” space right in the middle, between the stack and the heap.
 - This type of waste is usually called **internal fragmentation**, as the space inside the allocated unit is not all used (i.e., is fragmented) and thus wasted.
 ##### Segmentation: Generalized Base/Bounds
@@ -31,7 +31,7 @@
 - If a user process tries to write to a read-only segment, or execute from a non-executable segment, the hardware should raise an exception.
 ##### Fine-grained vs. Coarse-grained Segmentation
 - Dividing the address space into relatively large, coarse chunks, is known as **coarse-grained**.
-- However, some early systems were more flexible and allowed for address spaces to consist of a large number of smaller segments, referred to as **fine-grained**segmentation.
+- However, some early systems were more flexible and allowed for address spaces to consist of a large number of smaller segments, referred to as **fine-grained** segmentation.
 	- Supporting many segments requires even further hardware support, with a **segment table** of some kind stored in memory.
 ##### OS Support
 - When a new address space is created, the OS has to be able to find space in physical memory for its segments. 

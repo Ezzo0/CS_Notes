@@ -1,6 +1,6 @@
 # Explanation
 - In order to virtualize the CPU, the operating system needs to somehow share the physical CPU among many jobs running seemingly at the same time. 
-- The basic idea is simple: run one [[Process]] for a little while, then run another one, and so forth. By **time sharing** the CPU in this manner, virtualization is achieved.
+- The basic idea is simple: run one [[0x01_Process|process]] for a little while, then run another one, and so forth. By **time sharing** the CPU in this manner, virtualization is achieved.
 - There are a few challenges, however, in building such virtualization machinery.
 	1. performance: how can we implement virtualization without adding excessive overhead to the system?
 	2. control: how can we run processes efficiently while retaining control over the CPU?

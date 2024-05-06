@@ -10,7 +10,7 @@
 - The OS should implement virtual memory in a way that is invisible to the running program.
 - Another goal of VM is efficiency. The OS should strive to make the virtualization as efficient as possible, both in terms of time and space.
 - In implementing time-efficient virtualization, the OS will have to rely on hardware support, including hardware features such as TLBs.
-- Finally, a third VM goal is protection. The OS should make sure to protect [[Process]]-es from one another as well as the OS itself from processes.
+- Finally, a third VM goal is protection. The OS should make sure to protect [[0x01_Process|process]]es from one another as well as the OS itself from processes.
 - Protection thus enables us to deliver the property of isolation among processes.
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 13.

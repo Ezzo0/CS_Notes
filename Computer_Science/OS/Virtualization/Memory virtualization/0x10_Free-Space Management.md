@@ -2,9 +2,9 @@
 - Managing free space is easy when the space you are managing is divided into fixed-sized units. 
 - In such a case, you just keep a list of these fixed-sized units; when a client requests one of them, return the first entry.
 - Free-space management becomes more difficult is when the free space you are managing consists of variable-sized units. 
-- This arises in a user-level memory-allocation library (as in `malloc()` and `free()`) and in an OS managing physical memory when using **[[Segmentation]]** to implement virtual memory.
+- This arises in a user-level memory-allocation library (as in `malloc()` and `free()`) and in an OS managing physical memory when using **[[0x09_Segmentation|segmentation]]** to implement virtual memory.
 ##### Assumptions
-- We’ll also assume that once memory is handed out to a client, it cannot be relocated to another location in memory. Thus, no **[[Segmentation#^130c27|compaction]]** of free space is possible
+- We’ll also assume that once memory is handed out to a client, it cannot be relocated to another location in memory. Thus, no **[[0x09_Segmentation#^130c27|compaction]]** of free space is possible
 - We’ll assume that the allocator manages a contiguous region of bytes (single fixed size throughout its life).
 ##### Low-level Mechanisms
 - The space that memory allocation library manages is known historically as the heap, and the generic data structure used to manage free space in the heap is some kind of **free list**. 

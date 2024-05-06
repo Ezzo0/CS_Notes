@@ -1,6 +1,6 @@
 # Explanation
 ##### Workload Assumptions
-- Before getting into the range of possible policies, let us first make a number of simplifying assumptions about the [[Process]]es running in the system, sometimes collectively called the **workload**.
+- Before getting into the range of possible policies, let us first make a number of simplifying assumptions about the [[0x01_Process|process]]es running in the system, sometimes collectively called the **workload**.
 	1. Each job runs for the same amount of time.
 	2. All jobs arrive at the same time.
 	3. Once started, each job runs to completion.

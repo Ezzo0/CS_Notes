@@ -10,8 +10,8 @@
 	2. The size of the address space is not too big; specifically, that it is less than the size of physical memory.
 	3. Each address space is exactly the same size.
 ##### An Example
-- From the program’s perspective, its **address space** starts at address 0 and grows to a maximum of 16 KB; all memory references it generates should be within these bounds.
-- However, to virtualize memory, the OS wants to place the [[Process]] somewhere else in physical memory, not necessarily at address 0.
+- From the program’s perspective, its **[[0x07_Address Spaces|address space]]** starts at address 0 and grows to a maximum of 16 KB; all memory references it generates should be within these bounds.
+- However, to virtualize memory, the OS wants to place the [[0x01_Process|process]] somewhere else in physical memory, not necessarily at address 0.
     ![[A Process And Its Address Space.png|300]] ![[Physical Memory with a Single Relocated Process.png|320]]
 ##### Dynamic Relocation (base and bounds)
 - Two hardware registers are needed within each CPU: 

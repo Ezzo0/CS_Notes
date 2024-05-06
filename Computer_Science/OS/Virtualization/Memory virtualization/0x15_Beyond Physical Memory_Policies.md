@@ -18,7 +18,7 @@
 - To keep track of which pages have been least- and most-recently used, the system has to do some accounting work on every memory reference. 
 - Clearly, without great care, such accounting could greatly reduce performance.
 - One method that could help speed this up is to add a little bit of hardware support
-- For example, a machine could update, on each page access, a time field in memory (for example, this could be in the per-process [[Introduction to Paging#^6dd76f|page table]], or just in some separate array in memory, with one entry per physical page of the system).
+- For example, a machine could update, on each page access, a time field in memory (for example, this could be in the per-process [[0x11_Introduction to Paging#^6dd76f|page table]], or just in some separate array in memory, with one entry per physical page of the system).
 - Thus, when a page is accessed, the time field would be set, by hardware, to the current time. 
 - Then, when replacing a page, the OS could simply scan all the time fields in the system to find the least-recently-used page.
 - Unfortunately, as the number of pages in a system grows, scanning a huge array of times just to find the absolute least-recently-used page is prohibitively expensive. 
