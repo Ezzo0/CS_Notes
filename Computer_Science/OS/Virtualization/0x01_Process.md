@@ -42,7 +42,7 @@
 ##### Data Structures
 - To track the state of each process, for example, the OS likely will keep some kind of process list (also called the task list) for all processes that are ready and some additional information to track which process is currently running. 
 - The OS must also track, in some way, blocked processes; when an I/O event completes, the OS should make sure to wake the correct process and ready it to run again.
-- Sometimes people refer to the individual structure that stores information about a process as a **Process Control Block (PCB)** (also sometimes called a **process descriptor**).
+- Sometimes people refer to the individual structure that stores information about a process as a **Process Control Block (PCB)** (also sometimes called a **process descriptor**). ^5bb4f2
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 4.
 - [Lecture 2 - part 1](https://youtu.be/oTd72Yp2m8w)

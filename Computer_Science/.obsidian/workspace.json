@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "c6e4255278970b62",
+        "id": "07ff3bf357041db4",
         "type": "tabs",
         "children": [
           {
-            "id": "886c741e79454760",
+            "id": "68061390999c69e5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OS/Concurrency/0x20_Semaphores.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 322.5
   },
   "right": {
     "id": "10ef6f97bcd75007",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OS/Concurrency/0x20_Semaphores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OS/Concurrency/0x20_Semaphores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OS/Concurrency/0x20_Semaphores.md"
+              }
             }
           },
           {
@@ -150,43 +158,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "886c741e79454760",
+  "active": "68061390999c69e5",
   "lastOpenFiles": [
-    "AUTOSAR/0x04_Wdg Stack.md",
-    "OS/Virtualization/Memory virtualization/0x14_Beyond Physical Memory_Mechanisms.md",
-    "OS/Virtualization/Memory virtualization/0x15_Beyond Physical Memory_Policies.md",
-    "OS/Virtualization/Memory virtualization/0x13_Smaller Tables.md",
-    "OS/Virtualization/Memory virtualization/0x12_Faster Translations (TLBs).md",
-    "OS/Virtualization/Memory virtualization/0x11_Introduction to Paging.md",
-    "OS/Virtualization/Memory virtualization/0x10_Free-Space Management.md",
-    "AUTOSAR/0x00_Intro to AUTOSAR.md",
-    "pics/Logical supervision.PNG",
-    "pics/Deadline supervision.PNG",
-    "pics/wdg_stack.PNG",
-    "AUTOSAR/0x02_Diagnostics Stack.md",
-    "AUTOSAR/0x03_Communication Stack.md",
-    "pics/Network shutdown.PNG",
-    "pics/Active wakeup.PNG",
-    "pics/Passive wakeup.PNG",
-    "pics/Capture.PNG",
-    "pics/comm_states.png",
-    "pics/pduGroups.png",
-    "pics/timeout_RX.png",
-    "AUTOSAR/0x01_Memory Stack.md",
-    "OS/Virtualization/Memory virtualization/0x09_Segmentation.md",
-    "OS/Virtualization/Memory virtualization/0x08_Address Translation.md",
-    "OS/Virtualization/0x01_Process.md",
-    "OS/Virtualization/Memory virtualization/0x07_Address Spaces.md",
-    "OS/Virtualization/Scheduling/0x05_Proportional Share.md",
+    "Computer Networks/CCNA.md",
+    "Computer Networks/Network Topology.md",
+    "Computer Networks/IPv4 Addressing.md",
+    "Computer Networks/Open Systems Interconnection Model.md",
+    "Computer Networks/Ethernet Switching.md",
+    "OS/Concurrency/0x20_Semaphores.md",
+    "pics/Two Threads Using A Semaphore.png",
+    "pics/Single Thread Using A Semaphore.png",
     "Intro to Linux.md",
+    "OS/Concurrency/0x21_Common Concurrency Problems.md",
+    "OS/Concurrency/0x19_Condition Variables.md",
+    "OS/Concurrency/0x17_Intro to Concurrency.md",
+    "OS/Concurrency/0x18_Locks.md",
+    "DSA/Searching/2-3 Search Trees.md",
+    "DSA/Union-Find/Dynamic Connectivity.md",
+    "DSA/Union-Find/Weighted Quick-Union.md",
+    "DSA/Union-Find/Union-Find.md",
+    "DSA/Union-Find/Quick-Union.md",
+    "DSA/Union-Find/Quick-Find.md",
+    "AUTOSAR/0x04_Wdg Stack.md",
+    "AUTOSAR/0x03_Communication Stack.md",
+    "AUTOSAR/0x02_Diagnostics Stack.md",
+    "AUTOSAR/0x01_Memory Stack.md",
+    "AUTOSAR/0x00_Intro to AUTOSAR.md",
+    "Computer Networks/Physical Layer.md",
+    "OS/Virtualization/Memory virtualization/0x12_Faster Translations (TLBs).md",
     "OS/Virtualization/Scheduling/0x06_Multiprocessor Scheduling.md",
-    "OS/Virtualization/Scheduling/0x04_The Multi-Level Feedback Queue.md",
-    "OS/Virtualization/Scheduling/0x03_Introduction to scheduling.md",
-    "OS/Virtualization/0x02_Limited Direct Execution.md",
-    "OS/0x00_Introduction to OS.md",
-    "Syntax/Git.md",
-    "Syntax/Syntax.md",
-    "Syntax/Syntax of writing in obsidian.md",
+    "pics/Thread Trace_Broken Solution (v2).png",
+    "pics/Thread Trace_Broken Solution (v1).png",
+    "().md",
+    "pics/Performance characteristics of union-find algorithms.PNG",
+    "pics/Performance of Traditional vs Approximate Counters.png",
+    "pics/Pasted image 20240318174229.png",
+    "pics/No Mutual Exclusion.png",
+    "pics/problem.png",
+    "pics/Single-Threaded And Multi-Threaded.png",
+    "OS/Concurrency",
+    "Computer Networks/Embedded comm protocols",
     "AUTOSAR",
     "C & Embedded C",
     "ARM/Instruction Set⁯",
@@ -195,8 +206,6 @@
     "AI",
     "Computer Networks",
     "Data Structures & Algorithms/Graphs",
-    "Data Structures & Algorithms/Searching",
-    "pics",
     "Untitled.canvas"
   ]
 }

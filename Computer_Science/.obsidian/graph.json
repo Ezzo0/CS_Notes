@@ -8,24 +8,38 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Data Structures & Algorithms\"  ",
+      "query": "path:DSA  ",
       "color": {
         "a": 1,
-        "rgb": 14048348
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "path:AUTOSAR ",
+      "color": {
+        "a": 1,
+        "rgb": 65280
+      }
+    },
+    {
+      "query": "path:OS  ",
+      "color": {
+        "a": 1,
+        "rgb": 255
+      }
+    },
+    {
+      "query": "path:ARM  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
       }
     },
     {
       "query": "path:\"Computer Networks\"  ",
       "color": {
         "a": 1,
-        "rgb": 4137081
-      }
-    },
-    {
-      "query": "path:Syntax  ",
-      "color": {
-        "a": 1,
-        "rgb": 14277081
+        "rgb": 13158600
       }
     }
   ],
@@ -39,6 +53,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.576193126473054,
+  "scale": 0.3787742234492679,
   "close": false
 }

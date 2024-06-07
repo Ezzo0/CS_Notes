@@ -1,6 +1,6 @@
 # Topics
 - [[Network Topology]]
-- [[OSI Model]]
+- [[Open Systems Interconnection Model]]
 - [[Physical Layer]]
 - [[Datalink Layer]]
 - [[Ethernet Switching]]
