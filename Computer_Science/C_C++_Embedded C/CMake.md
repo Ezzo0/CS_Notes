@@ -93,7 +93,6 @@
 		endmacro()
 	``` 
 	-  `execute_process(COMMAND "command")` - used to run a command, which is used in bash, in CMake.
-	- 
 # Sources
 - [CMake - MoatasemElsayed](https://www.youtube.com/playlist?list=PLkH1REggdbJpG8fHZvivt-5Hlg3UZcJrK)
 - [CMake Reference Documentation](https://cmake.org/cmake/help/latest/index.html)

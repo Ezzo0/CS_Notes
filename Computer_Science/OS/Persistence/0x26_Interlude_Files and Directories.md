@@ -265,4 +265,4 @@ prompt> ls -l foo.txt
 - What mount does, quite simply is take an existing directory as a target **mount point** and essentially paste a new file system onto the directory tree at that point.
 # Sources
 - Operating Systems: Three Easy Pieces - Chapter 39.
-- [Lecture 11 - part 4]()
+- [Lecture 11 - part 4](https://youtu.be/EDFoFlzZ8_w)

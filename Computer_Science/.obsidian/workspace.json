@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/Persistence/0x26_Interlude_Files and Directories.md",
+                "file": "OS/Persistence/0x29_Crash Consistency_FSCK and Journaling.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 278.5,
+    "collapsed": true
   },
   "right": {
     "id": "10ef6f97bcd75007",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/Persistence/0x26_Interlude_Files and Directories.md",
+                "file": "OS/Persistence/0x29_Crash Consistency_FSCK and Journaling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/Persistence/0x26_Interlude_Files and Directories.md",
+                "file": "OS/Persistence/0x29_Crash Consistency_FSCK and Journaling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/Persistence/0x26_Interlude_Files and Directories.md"
+                "file": "OS/Persistence/0x29_Crash Consistency_FSCK and Journaling.md"
               }
             }
           },
@@ -160,43 +161,43 @@
   },
   "active": "fa8615bda98a74da",
   "lastOpenFiles": [
-    "ARM/Boot-Loader.md",
+    "pics/deleted journal log.PNG",
+    "pics/journal log.PNG",
+    "pics/journal superblock.PNG",
+    "pics/without TxE.PNG",
+    "pics/powerloss in jounal write.PNG",
+    "pics/data journaling.PNG",
+    "pics/Linux ext3.PNG",
+    "pics/Linux ext2.PNG",
+    "OS/Persistence/0x28_Locality and The Fast File System.md",
+    "OS/Persistence/0x29_Crash Consistency_FSCK and Journaling.md",
+    "ARM/Cortex-M3 & Cortex-M4 Processors.md",
+    "ARM/Reset Mechanism & Reset Sequence.md",
     "OS/Persistence/0x26_Interlude_Files and Directories.md",
-    "pics/Open File Table Entry.png",
-    "pics/Directory Tree.png",
+    "pics/FFS placement.PNG",
+    "pics/FFS exception.PNG",
+    "pics/FFS without exception.PNG",
     "OS/Persistence/0x25_Redundant Arrays of Inexpensive Disks.md",
-    "pics/RAID.png",
-    "pics/RAID-5.png",
-    "pics/subtractive parity.png",
-    "pics/Full-stripe.png",
-    "pics/xor.png",
-    "pics/RAID-4.png",
-    "OS/Persistence/0x24_Hard Disk Drives.md",
-    "pics/RAID-1.png",
-    "pics/Striping.png",
     "OS/Persistence/0x23_IO Devices.md",
+    "DSA/Union-Find/Dynamic Connectivity.md",
+    "DSA/Union-Find/Weighted Quick-Union.md",
+    "DSA/Union-Find/Union-Find.md",
+    "DSA/Stack.md",
+    "DSA/Queues.md",
+    "DSA/Bags.md",
+    "Intro to Linux.md",
+    "OS/Virtualization/0x02_Limited Direct Execution.md",
     "OS/Virtualization/Scheduling/0x03_Introduction to scheduling.md",
-    "OS/Virtualization/Scheduling/0x05_Proportional Share.md",
-    "OS/Virtualization/Scheduling/0x06_Multiprocessor Scheduling.md",
-    "OS/Virtualization/Scheduling/0x04_The Multi-Level Feedback Queue.md",
     "OS/Virtualization/0x01_Process.md",
     "OS/0x00_Introduction to OS.md",
-    "OS/Concurrency/0x21_Common Concurrency Problems.md",
-    "ARM/Architecture/Exceptions and interrupts.md",
-    "ARM/Architecture/Application Program Status Register (APSR).md",
-    "OS/Concurrency/0x17_Intro to Concurrency.md",
+    "OS/Persistence/0x27_File System Implementation.md",
+    "OS/Virtualization/Memory virtualization/0x15_Beyond Physical Memory_Policies.md",
+    "OS/Virtualization/Memory virtualization/0x14_Beyond Physical Memory_Mechanisms.md",
+    "OS/Virtualization/Memory virtualization/0x13_Smaller Tables.md",
+    "OS/Virtualization/Memory virtualization/0x12_Faster Translations (TLBs).md",
+    "OS/Virtualization/Memory virtualization/0x11_Introduction to Paging.md",
+    "OS/Virtualization/Memory virtualization/0x10_Free-Space Management.md",
     "OS/Persistence",
-    "AUTOSAR/0x03_Communication Stack.md",
-    "AUTOSAR/0x02_Diagnostics Stack.md",
-    "AUTOSAR/0x01_Memory Stack.md",
-    "AUTOSAR/0x00_Intro to AUTOSAR.md",
-    "C & Embedded C/Build Process.md",
-    "Syntax/Git.md",
-    "AUTOSAR/0x04_Wdg Stack.md",
-    "DSA/Searching/Symbol Tables.md",
-    "DSA/Searching/Searching.md",
-    "DSA/Searching/Red-black BSTs.md",
-    "DSA/Searching/2-3 Search Trees.md",
     "OS/RTOS",
     "OS/Concurrency",
     "Computer Networks/Embedded comm protocols",

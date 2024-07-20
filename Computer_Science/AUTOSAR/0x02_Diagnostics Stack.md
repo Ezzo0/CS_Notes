@@ -8,7 +8,7 @@
 - Diagnostic system model consists of:
 	- Diagnostic tool.
 	- Ecu(s) to be diagnosed.
-	- Communication channel between the diagnostics tool and diagnosed ECU(s) e.g. [[CAN]] , [[LIN]] ….
+	- Communication channel between the diagnostics tool and diagnosed ECU(s) e.g. [[0x03_CAN]] , [[0x04_LIN]] ….
 - The diagnostic tool requests a service and the ECU responds with results.
 - The response can be positive or negative.
 - UDS Protocol Frames :

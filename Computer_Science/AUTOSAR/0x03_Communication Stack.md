@@ -1,5 +1,5 @@
 # Explanation
-- ECU sends messages over different networks ([[CAN]] , [[LIN]] , Flexray .. ) these messages are called **PDUs (Protocol Data Unit)**.
+- ECU sends messages over different networks ([[0x03_CAN|CAN]] , [[0x04_LIN|LIN]] , Flexray .. ) these messages are called **PDUs (Protocol Data Unit)**.
 - Each PDU consists of different signals.
 	![[pdu_signals.png]]
 - Data items sent or received by applications are mapped to signals.

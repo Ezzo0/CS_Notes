@@ -32,7 +32,7 @@
 	- Intra: SWC/BSW, SWC/SWC.
 	- Inter: ECU information exchange.
 - It provides a communication abstraction to application AUTOSAR software components by providing the same interface whether:
-	- inter-ECU communication channels are used (e.g. CAN, LIN, ...).
+	- inter-ECU communication channels are used (e.g. [[0x03_CAN|CAN]], [[0x04_LIN|LIN]], ...).
 	- communication stays intra ECU.
 ##### AUTOSAR Stacks
 - AUTOSAR architecture consists of 4 stacks:
