@@ -42,3 +42,5 @@
 		- In this configuration, all sub-nodes receive the same SPI clock at the same time. The data from the main is directly connected to the first sub-node and that sub-node provides data to the next sub-node and so on.
 		- The number of clock cycles required to transmit data is proportional to the sub-node position in the daisy chain.
 			 ![[daisy_chain.png]]
+# Sources
+- [Introduction to SPI Interface](https://www.analog.com/en/resources/analog-dialogue/articles/introduction-to-spi-interface.html).

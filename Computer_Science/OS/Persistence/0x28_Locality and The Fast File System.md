@@ -16,7 +16,7 @@
 - FFS thus ushered in a new era of file system research; by keeping the same _interface_ to the file system but changing the internal implementation, the authors paved the path for new file system construction, work that continues today.
 ##### Organizing Structure: The Cylinder Group
 - The first step was to change the on-disk structures. FFS divides the disk into a number of **cylinder groups**. 
-- A single **cylinder** is a set of tracks on different surfaces of a hard drive that are the same distance from the center of the drive.
+- A single **cylinder** is a set of tracks on different surfaces of a [[0x24_Hard Disk Drives|hard drive]] that are the same distance from the center of the drive.
 	 ![[cylinder group.PNG]]
 - Note that modern drives do not export enough information for the file system to truly understand whether a particular cylinder is in use, disks export a logical address space of blocks and hide details of their geometry from clients.
 - Thus, modern file systems (such as Linux ext2, ext3, and ext4) instead organize the drive into **block groups**, each of which is just a consecutive portion of the disk’s address space.

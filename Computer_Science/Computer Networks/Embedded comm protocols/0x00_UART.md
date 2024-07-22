@@ -73,3 +73,6 @@
 		-  USART can typically operate at higher speeds than UART.
 	4. **Data framing:**
 		- USART supports more flexible data framing options, such as using 7, 8, or 9 data bits per frame, while UART typically only supports 8 data bits per frame.
+# Sources
+- [Understanding UART](https://www.rohde-schwarz.com/cz/products/test-and-measurement/essentials-test-equipment/digital-oscilloscopes/understanding-uart_254524.html#:~:text=UART%20stands%20for%20universal%20asynchronous%20receiver%20%2F%20transmitter%20and%20is%20a,both%20sides%20of%20the%20connection.).
+- [UART: A Hardware Communication Protocol Understanding Universal Asynchronous Receiver/Transmitter](https://www.analog.com/en/resources/analog-dialogue/articles/uart-a-hardware-communication-protocol.html).

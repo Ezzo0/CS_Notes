@@ -1,5 +1,5 @@
 # Explanation
-- Unlike most data structures of a running program in memory, file system data structures must **persist**, i.e., they must survive over the long haul, stored on devices that retain data despite **power loss** or **system crash**.
+- Unlike most data structures of a running program in memory, [[0x27_File System Implementation|file system]] data structures must **persist**, i.e., they must survive over the long haul, stored on devices that retain data despite **power loss** or **system crash**.
 - Because of power losses and crashes, updating a persistent data structure can be quite tricky, and leads to a new and interesting problem in file system implementation, known as the **crash-consistency problem**.
 - This problem is quite simple to understand. Imagine you have to update two on-disk structures, A and B, in order to complete a particular operation.
 - Because the disk only services a single request at a time, one of these requests will reach the disk first (either A or B). If the system crashes or loses power after one write completes, the on-disk structure will be left in an **inconsistent** state.
@@ -164,5 +164,5 @@
 - We also have explored techniques to reduce the number of times a journal protocol has to wait for disk writes to complete. Entitled **optimistic crash consistency**, this new approach issues as many writes to disk as possible by using a generalized form of the **transaction checksum**, and includes a few other techniques to detect inconsistencies should they arise.
 # source
 - Operating Systems: Three Easy Pieces - Chapter 42.
-- [Lecture 13 - part 1]().
-- [Lecture 13 - part 2]().
+- [Lecture 13 - part 1](https://youtu.be/piwPJ0sLV0Y).
+- [Lecture 13 - part 2](https://youtu.be/MgnQV-ss1wc).
