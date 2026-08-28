@@ -63,5 +63,5 @@
 - By contrast, at Layers 1 and 2, the router must speak the same protocol as the previous-hop and the next-hop router, so that the router can receive packets from the previous hop and send packets to the next hop. The router’s peers are its neighboring routers along the path.
 	![sameLayerComm](https://textbook.cs168.io/assets/intro/1-19-layers-host-routers.png)
 # Sources
-- [1. Intro 1: Layers of the Internet](https://www.youtube.com/watch?v=7mat3QOxpTg).
+- [Lecture 1 - Intro 1: Layers of the Internet](https://www.youtube.com/watch?v=7mat3QOxpTg).
 - [Headers](https://textbook.cs168.io/intro/headers.html).

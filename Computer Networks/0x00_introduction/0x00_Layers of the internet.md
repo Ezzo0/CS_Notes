@@ -50,5 +50,5 @@
 - Note: You might have noticed we skipped Layers 5 and 6. In the 1970s, when the layers were first standardized, the designers thought that these layers were needed, but they’re obsolete in the modern Internet.
 - If you’re curious, the session layer (5) was supposed to assemble different flows into a session (e.g. loading various images and ads to form a webpage), and the presentation layer (6) was supposed to help the user visualize the data. Today, the functionality of these layers is mostly implemented in Layer 7.
 # Sources
-- [1. Intro 1: Layers of the Internet](https://www.youtube.com/watch?v=7mat3QOxpTg).
+- [Lecture 1 - Intro 1: Layers of the Internet](https://www.youtube.com/watch?v=7mat3QOxpTg).
 - [Layers of the Internet](https://textbook.cs168.io/intro/layers.html).
