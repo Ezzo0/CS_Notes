@@ -9,7 +9,7 @@
 		![linkCapacity](https://textbook.cs168.io/assets/intro/1-57-link-properties.png)
 	- Note: You might sometimes see the term **latency**. In the context of a link, the latency is its propagation delay, though this word can also be used in other contexts (e.g. the latency from end host to end host, across multiple links). Latency by itself is not formally defined, and is context-dependent.
 #### Timing Diagram
-- Suppose we have a link with bandwidth 1 Mbps = 1 million bits per second, and propagation delay of 1 ms = 0.001 seconds. We want to send a 100 byte = 800 bit packet along this link. How long does it take to send this packet, from the time the first bit is sent, to the time the last bit is received?
+- Suppose we have a link with bandwidth 1 Mbps = 1 million bits per second, and propagation delay of 1 ms = 0.001 seconds. We want to send a 100 byte = 800 bit [[0x00_Layers of the internet#Layer 3 Packets Abstraction|packet]] along this link. How long does it take to send this packet, from the time the first bit is sent, to the time the last bit is received?
 - To answer this question, we can draw a timing diagram. The left bar is the sender, and the right bar is the recipient. Time starts at 0 and increases as we move down the diagram.
 - Let’s focus on the first bit. We can put 1,000,000 bits on the link per second (bandwidth), so it takes `1/1,000,000 = 0.000001` seconds to put a single bit on the link. At time 0.000001 seconds, the link has a single bit on it, at the sender end.
 - It then takes 0.001 seconds for this bit to travel across the link (propagation delay), so at time `0.000001 + 0.001` seconds, the very first bit arrives at the recipient.

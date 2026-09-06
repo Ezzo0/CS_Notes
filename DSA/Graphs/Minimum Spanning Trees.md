@@ -1,6 +1,6 @@
 # Explanation
 - An edge-weighted [[Graphs]] are graph models where we associate weights or costs with each edge.
-- Spanning tree of a graph is a connected subgraph with no cycles that includes all the vertices.
+- Spanning tree of a graph is a connected subgraph with no cycles that includes all the vertices. ^58b2b0
 - A minimum spanning tree (MST ) of an edge-weighted graph is a spanning tree whose weight (the sum of the weights of its edges) is no larger than the weight of any other spanning tree.
  ![[An edge-weighted graph and its MST.png|300]]
 - A cut of a graph is a partition of its vertices into two nonempty disjoint sets. 
