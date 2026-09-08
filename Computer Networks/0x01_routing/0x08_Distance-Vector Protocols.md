@@ -174,6 +174,6 @@
 - Note that triggered updates are an **optimization**. Instead of advertising every time the table changes, we could just wait for the next advertisement interval to advertise the changes.
 - This protocol would still be correct. However, triggered updates, in addition to the periodic updates, help our protocol converge on correct routes faster, because we propagate new information the instant we learn about it.
 # Sources
-- [Lecture 5 -Routing 2: Distance-Vector](https://www.youtube.com/watch?v=6gCFWEqusMA).
-- [Lecture 6 -Routing 2: Distance-Vector (continued)](https://www.youtube.com/watch?v=glKg5DAXW7o).
+- [Lecture 5 - Routing 2: Distance-Vector](https://www.youtube.com/watch?v=6gCFWEqusMA).
+- [Lecture 6 - Routing 2: Distance-Vector (continued)](https://www.youtube.com/watch?v=glKg5DAXW7o).
 - [Distance-Vector Protocols](https://textbook.cs168.io/routing/distance-vector.html).
