@@ -21,7 +21,7 @@
 - If the topology inside network 1 changes, we don’t need to update R9’s forwarding table (or any other tables in other networks).
 - In practice, changes within a local network (e.g. new host joins the network) happens much more often than changes between networks (e.g. new underground cable installed), so it’s a good thing that local changes only affect local tables.
 - More generally, our addresses have two parts: a network ID, and a host ID.
-- This allows inter-domain routing protocols to focus on the network ID to find routes between networks, and [[0x06_Model for Intra-Domain Routing|intra-domain routing]] protocols to focus on the host ID to find routes inside networks.
+- This allows [[0x12_Model for Inter-Domain Routing|inter-domain]] routing protocols to focus on the network ID to find routes between networks, and [[0x06_Model for Intra-Domain Routing|intra-domain routing]] protocols to focus on the host ID to find routes inside networks.
 - This also makes our routing protocols more stable as the network changes. Inter-domain protocols don’t care about changes inside networks, and intra-domain protocols don’t care about changes in other networks.
 	![internalExternalDist](https://textbook.cs168.io/assets/routing/2-103-address-intuition4.png)
 - The scale of a forwarding table depends on the number of internal hosts in the same network, plus the number of external networks.

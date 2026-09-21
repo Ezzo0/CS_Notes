@@ -69,7 +69,7 @@
 	![persistentOverload](https://textbook.cs168.io/assets/intro/1-75-persistent.png)
 - We could fill the queue up, but that still isn’t enough to support the incoming load. One way or another, the switch will drop packets.
 - How do we account for persistent overload? Operators need to properly provision their links and switches. If they notice that a switch is frequently overloaded, they might decide to upgrade the link (which may require manual work).
-- One possible solution to overload is to have the router tell the senders to slow down (_congestion control_). Ultimately, there’s not much we can do to solve overload, though, which is why the Internet is designed to only offer best-effort service.
+- One possible solution to overload is to have the router tell the senders to slow down   (_[[0x20_Congestion Control Design|congestion control]]_). Ultimately, there’s not much we can do to solve overload, though, which is why the Internet is designed to only offer best-effort service.
 - Now that we have a notion of queuing, we need to go back and update our packet delay formula. Now, **packet delay is the sum of transmission delay, propagation delay, and queuing delay**.
 # Sources
 - [Lecture 3 - Intro 3: Links](https://www.youtube.com/watch?v=jqprd49WDIc).

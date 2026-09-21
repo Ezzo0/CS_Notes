@@ -30,7 +30,7 @@
 		- The canonical design for best-effort is called **packet switching**. The switch looks at each packet independently and forwards the packet closer to its destination. The switches don’t think about flows or reservations.
 		- In addition to packets being independent from each other, the switches are also independent from each other. As a packet hops across switches, every switch considers the packet independently (the switches don’t coordinate).
 			![packetSwitching](https://textbook.cs168.io/assets/intro/1-51-best-effort.png)
-	2. The other approach is based on **reservations**.
+	2. The other approach is based on **reservations**. ^d1c424
 		- At the start of a flow, users explicitly request and reserve the bandwidth they need. After the data is sent, the resources can be released for others to reserve.
 		- The canonical design for reservations, explored in both research and industry, is called **circuit switching**.
 		- At the start of a flow, the end hosts identify a path (sequence of switches and links) through the network, using some routing algorithm.

@@ -17,10 +17,10 @@
 - This approach would scale better than the full mesh topology. For example, if a new computer joined the network, instead of creating five new links between the new computer and the five existing computers, we can just extend the existing wire to the new computer.
 - However, this approach is more limited in the amount of bandwidth available to the machines. In particular, there is only a single link, and all five machines need to share the bandwidth on this link.
 #### Routers and Hosts
-- **End hosts** are machines connecting to the Internet to send and receive data. Examples of end hosts include applications on your own personal computer, such as your web browser.
+- **End hosts** are machines connecting to the Internet to send and receive data. Examples of end hosts include applications on your own personal computer, such as your web browser. ^a761ab
 - Web servers, such as a Google web server receiving Google search queries and sending back search results, are also end hosts. These machines send outgoing packets to other destinations, and could be the final destination for incoming packets.
 - However, these machines usually do not receive and forward intermediate [[0x00_Layers of the internet#Layer 3 Packets Abstraction|packets]] (i.e. packets with some different final destination).
-- **Routers**, by contrast, are machines connected to the Internet responsible for receiving and forwarding intermediate packets closer to their final destination. For example, consider the router installed in your home network, or routers living in a data center building somewhere.
+- **Routers**, by contrast, are machines connected to the Internet responsible for receiving and forwarding intermediate packets closer to their final destination. For example, consider the router installed in your home network, or routers living in a data center building somewhere. ^75153e
 - These machines usually do not create and send new packets of their own, and they usually are not the final destination for packets.
 - Depending on the network design, routers could be legal destinations, but in this unit, we’ll ignore routers as destinations. However, do note that **routers potentially can be sources and send new packets of their own**.
 - Note that end hosts generally do not participate in routing protocols, since they don’t forward intermediate packets. Instead, end hosts are often connected to a single router with a single link.
