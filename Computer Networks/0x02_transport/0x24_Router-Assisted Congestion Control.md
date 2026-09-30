@@ -2,7 +2,7 @@
 - Previously, we saw some issues with host-based [[0x20_Congestion Control Design|congestion control]] algorithms. Many of these issues could be fixed with some help from [[0x11_Router Hardware|routers]]!
 - [[0x17_TCP Design|TCP]] confuses congestion and corruption. TCP fills up queues, has choppy rates, and performs poorly on short flows, all because hosts need to constantly adjust their rates to detect congestion.
 - If routers could tell the sender about congestion, or even directly tell the sender the ideal rate, then many of these problems could be solved.
-- Also, if routers enforce fair sharing, then it becomes much harder for hosts to [[0x22_Congestion Control Issues#Cheating|cheat]].
+- Also, if routers enforce fair sharing, then it becomes much harder for hosts to [[0x23_Congestion Control Issues#Cheating|cheat]].
 #### Enforcing Fair Queuing
 - So far, a router is receiving packets, queuing them if needed, and sending them out, in first-in-first-out (FIFO) order. The router doesn’t care which connection a packet comes from.
 - In our new model, the router would need to classify packets into connections. (For now, assume the connections are all TCP connections.) This means the router has to look inside the packet to learn the source and destination IP addresses and ports.

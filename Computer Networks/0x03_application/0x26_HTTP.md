@@ -70,7 +70,7 @@
 		- These caches can be shared between lots of users, so a user requesting a resource for the first time might get the data from the proxy cache instead of the origin server.
 		- One problem with proxy caches is, the clients need some way to be redirected to the proxy cache. The application isn’t running the proxy cache, so the origin server doesn’t necessarily know about the proxy cache.
 		- The network operator needs some way to control the end client to inform them about the proxy cache.
-		- One common approach is lying in [[0x24_DNS|DNS]] responses, which is possible if the network operator controls both the proxy cache and the [[0x24_DNS#Stub Resolvers and Recursive Resolvers|recursive resolver]].
+		- One common approach is lying in [[0x25_DNS|DNS]] responses, which is possible if the network operator controls both the proxy cache and the [[0x25_DNS#Stub Resolvers and Recursive Resolvers|recursive resolver]].
 		- When the client makes a request to the origin server, it has to look up the origin server’s IP address. The recursive resolver can lie and say, “The IP address of the origin server is, 1.2.3.4 (proxy cache’s IP address).” Now, requests to the origin server go to the proxy cache instead, who can serve cached responses.
 		- Or, if the requested resource isn’t in the proxy cache, the proxy cache can make a request to the origin server, and then the cache can serve the request back to the user.
 		- Another problem with proxy caches is, the application isn’t managing the proxy cache. The origin server has to trust that the proxy cache is doing the right thing (e.g. respecting cache expiry dates, serving the correct data).
@@ -119,13 +119,13 @@
 	![wanCDN](https://textbook.cs168.io/assets/applications/4-24-cdn4.png)
 #### Directing Clients to Caches
 - In a CDN, many different servers throughout the Internet are providing the same content. How does the client know which server to contact?
-- Some of the tricks from DNS can also apply to CDNs. We could use [[0x24_DNS#Root Server Availability with Anycast|anycast]], where multiple servers advertise the same IP prefix. This allows the routing algorithm to find the best path to any one of the servers.
+- Some of the tricks from DNS can also apply to CDNs. We could use [[0x25_DNS#Root Server Availability with Anycast|anycast]], where multiple servers advertise the same IP prefix. This allows the routing algorithm to find the best path to any one of the servers.
 	![anycast|500](https://textbook.cs168.io/assets/applications/4-25-anycast1.png)
 - One problem with anycast is with long-running connections. Suppose the client has an ongoing TCP connection with one of the servers. During the connection, some intermediate [[0x04_Links|link]] in the network fails.
 - Since all the servers have the same IP address, from an intermediate router’s perspective, forwarding to any of the servers is valid. The intermediate router may now start forwarding packets to a different server (with the same IP address).
 - However, the TCP connection was with the original server, and this new server has no way to continue the original connection.
 - Note that this problem didn’t apply when we used anycast in DNS, because DNS connections are very short (usually just one UDP packet).
-- We could also use [[0x24_DNS#DNS for Load Balancing|DNS to load-balance]]. Unlike in anycast, the servers now have different IP addresses, though they still all have the same domain. When the client queries for the domain-to-IP mapping, the DNS name server can provide a different IP address depending on the client’s location.
+- We could also use [[0x25_DNS#DNS for Load Balancing|DNS to load-balance]]. Unlike in anycast, the servers now have different IP addresses, though they still all have the same domain. When the client queries for the domain-to-IP mapping, the DNS name server can provide a different IP address depending on the client’s location.
 - This DNS-based approach doesn’t have the same problem with long-lived connections that anycast did, because the servers now have different addresses. The router won’t suddenly start forwarding packets to a different server.
 - One problem with the DNS-based approach is lack of granularity. As an extreme example, suppose everybody in Comcast’s ISP used the same recursive resolver. This means that everybody sends their DNS queries to the resolver, who then makes the query to the application name server.
 - The application name server can only see that the DNS request came from Comcast, and has to give a single IP address back to Comcast. Now, every user in Comcast’s network is using the same server, even if the users are all over the world.

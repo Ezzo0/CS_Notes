@@ -77,7 +77,7 @@
 - For example, if the prefix is $11000000$, we add zeros for all the unfixed bits to get $11000000$ $00000000$ $00000000$ $00000000$.
 - As a 32-bit address, this is $192.0.0.0$. Then, because 8 bits were fixed, we write the range as $192.0.0.0/8$.
 - To write an individual address as a range, we could write something like $192.168.1.1/32$, which indicates that all 32 bits are fixed. Also, the default route $*.*$ can be written as $0.0.0.0/0$.
-- An alternative to the slash (e.g. /16) in the slash notation is a **netmask**. Just like the number after the slash, the netmask tells us how which bits are fixed.
+- An alternative to the slash (e.g. /16) in the slash notation is a **netmask**. Just like the number after the slash, the netmask tells us how which bits are fixed. ^95aea8
 - To write a netmask, we write 1s for all **fixed bits** and 0 for all **unfixed bits**, and convert the result into a dotted quad.
 - For example, if we had the range $192.168.1.0/29$, we could write 29 ones (fixed bits) and 3 zeros (unfixed bits). $11111111$ $11111111$ $11111111$ $11111000$ as a dotted quad is $255.255.255.248$. 
 - The range in netmask notation is $192.168.1.0$, with netmask 255.255.255.248 (replaced the slash with a netmask).

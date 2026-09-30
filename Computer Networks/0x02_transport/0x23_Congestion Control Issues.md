@@ -9,7 +9,7 @@
 #### Confusing Corruption and Congestion
 - TCP detects congestion by checking for packet loss, but congestion isn’t the only reason packets would be lost.
 - Packets could also be lost from congestion, and TCP cannot distinguish between loss due to corruption or congestion. If a [[0x00_Layers of the internet#Layer 3 Packets Abstraction|packet]] is corrupted, TCP will still drop its rate, even if the network isn’t congested.
-- We can also see this in our equation, which related [[0x21_TCP Throughput Model|throughput]] to loss rate. The throughput and loss rate are inversely proportional, even for non-congestion losses.
+- We can also see this in our equation, which related [[0x22_TCP Throughput Model|throughput]] to loss rate. The throughput and loss rate are inversely proportional, even for non-congestion losses.
 - The equation can be helpful for estimating how a lossy link (e.g. a wireless link that frequently corrupts packets) would affect TCP.
 #### Short Connections
 - Most TCP connections in real life are very short-lived. 50% of connections send fewer than 1.5 KB, and 80% of connections send less than 100 KB. Very few packets (maybe only one) are sent during these connections.

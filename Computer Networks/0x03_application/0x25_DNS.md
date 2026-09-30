@@ -169,4 +169,5 @@ c.edu-servers.net.  172800   IN   A    192.26.92.30
 - We also don’t know about the performance (e.g. network bandwidth) between the user and the different servers.
 # Sources
 - [Lecture 16 - Applications 1: DNS](https://www.youtube.com/watch?v=BTqZzOujdy0).
+- [Lecture 18 - End-to-End 1: Ethernet, STP](https://www.youtube.com/watch?v=efWtZ8bzBOM).
 - [DNS](https://textbook.cs168.io/applications/dns.html).

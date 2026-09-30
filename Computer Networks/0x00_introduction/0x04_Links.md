@@ -2,7 +2,7 @@
 - There are three properties we can use to measure the performance of a link.
 	- The **bandwidth** of a link tells us how many bits we can send on the link per unit time. Intuitively, this is the speed of the link. 
 		- If you think of a link as a pipe carrying water, the bandwidth is the width of the pipe. A wider pipe lets us feed more water into the pipe per second. We usually measure bandwidth in _bits per second_ (e.g. 5 Gbps = 5 billion bits per second).
-	- The **propagation delay** of a link tells us how long it takes for a bit to travel along the link. In the pipe analogy, this is the length of the link. 
+	- The **propagation delay** of a link tells us how long it takes for a bit to travel along the link. In the pipe analogy, this is the length of the link.  ^ac8f01
 		- A shorter pipe means that water spends less time in the pipe before arriving at the other end. Propagation delay is measured in _time_ (e.g. nanoseconds, milliseconds).
 	- If we multiply the bandwidth and the propagation delay, we get the **bandwidth-delay product (BDP)**. Intuitively, this is the **capacity** of the link, or the number of bits that exist on the link at any given instant. 
 		- In the pipe analogy, if we fill up the pipe and freeze time, the capacity of the pipe is how much water is in the pipe in that instant.
